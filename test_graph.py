@@ -5,7 +5,7 @@ import numpy as np
 
 class DnDCharacter:
     #implement with python data class
-    def __init__(
+    def __init__(s
         self,
         name,
         char_class,
