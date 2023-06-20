@@ -5,7 +5,7 @@ import numpy as np
 
 class DnDCharacter:
     #implement with python data class
-    def __init__(s
+    def __init__(
         self,
         name,
         char_class,
@@ -28,7 +28,6 @@ class DnDCharacter:
         feats,
         equipment,
     ):
-        self.graph = nx.Graph()
         self.name = name
         self.char_class = char_class
         self.level = level
