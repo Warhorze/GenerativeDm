@@ -132,7 +132,7 @@ dnd_char = DnDCharacter(
         "Thieves' Tools",
     ],
 )
-from dnd5apy.api import CharacterDataApi
+from dnd5epy.api import CharacterDataApi
 
 #dnd_char.plot_abilities()
 
