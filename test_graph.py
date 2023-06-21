@@ -4,7 +4,9 @@ import numpy as np
 
 
 class DnDCharacter:
-    #implement with python data class
+    #TODO:implement with python data class
+    #TODO: write as MVC pattern (model = data model, view = sees, controller)
+    #TODO: class should federate required features from the API, subsequently API call should be federated by LangCHain (later, Langchain should be informed by a GPT like (open source))
     def __init__(
         self,
         name,
@@ -145,5 +147,5 @@ strength = client.api_ability_scores_index_get("str")
 
 # Now you can access the properties of the Strength ability score
 print(strength.name)  # "Strength"
-print(strength.description)  # Description of Strength
-print(strength.skills)  # Skills associated with Strength
+print(strength)  # Description of Strength
+  # Skills associated with Strength
