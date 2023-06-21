@@ -132,5 +132,18 @@ dnd_char = DnDCharacter(
         "Thieves' Tools",
     ],
 )
+from dnd5apy.api import CharacterDataApi
 
-dnd_char.plot_abilities()
+#dnd_char.plot_abilities()
+
+
+# Instantiate the API client
+client = CharacterDataApi()
+
+# Get the Strength ability score
+strength = client.api_ability_scores_index_get("str")
+
+# Now you can access the properties of the Strength ability score
+print(strength.name)  # "Strength"
+print(strength.description)  # Description of Strength
+print(strength.skills)  # Skills associated with Strength
