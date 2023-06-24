@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.proficiency_all_of_reference import ProficiencyAllOfReference  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.proficiency_all_of_reference import ProficiencyAllOfReference  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestProficiencyAllOfReference(unittest.TestCase):
     """ProficiencyAllOfReference unit test stubs"""
@@ -35,7 +35,7 @@ class TestProficiencyAllOfReference(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `ProficiencyAllOfReference`
         """
-        model = dnd5epy.models.proficiency_all_of_reference.ProficiencyAllOfReference()  # noqa: E501
+        model = openapi_client.models.proficiency_all_of_reference.ProficiencyAllOfReference()  # noqa: E501
         if include_optional :
             return ProficiencyAllOfReference(
                 index = '', 

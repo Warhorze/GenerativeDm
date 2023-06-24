@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.model_class import ModelClass
+from openapi_client.models.model_class import ModelClass
 
 # TODO update the JSON string below
 json = "{}"

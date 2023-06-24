@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.prerequisite import Prerequisite
+from openapi_client.models.prerequisite import Prerequisite
 
 # TODO update the JSON string below
 json = "{}"

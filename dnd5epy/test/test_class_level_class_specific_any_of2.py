@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.class_level_class_specific_any_of2 import ClassLevelClassSpecificAnyOf2  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.class_level_class_specific_any_of2 import ClassLevelClassSpecificAnyOf2  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestClassLevelClassSpecificAnyOf2(unittest.TestCase):
     """ClassLevelClassSpecificAnyOf2 unit test stubs"""
@@ -35,7 +35,7 @@ class TestClassLevelClassSpecificAnyOf2(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `ClassLevelClassSpecificAnyOf2`
         """
-        model = dnd5epy.models.class_level_class_specific_any_of2.ClassLevelClassSpecificAnyOf2()  # noqa: E501
+        model = openapi_client.models.class_level_class_specific_any_of2.ClassLevelClassSpecificAnyOf2()  # noqa: E501
         if include_optional :
             return ClassLevelClassSpecificAnyOf2(
                 channel_divinity_charges = 1.337, 

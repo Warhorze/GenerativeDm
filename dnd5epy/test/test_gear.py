@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.gear import Gear  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.gear import Gear  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestGear(unittest.TestCase):
     """Gear unit test stubs"""
@@ -35,7 +35,7 @@ class TestGear(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Gear`
         """
-        model = dnd5epy.models.gear.Gear()  # noqa: E501
+        model = openapi_client.models.gear.Gear()  # noqa: E501
         if include_optional :
             return Gear(
                 index = '', 
@@ -44,15 +44,15 @@ class TestGear(unittest.TestCase):
                 desc = [
                     ''
                     ], 
-                equipment_category = dnd5epy.models.api_reference.APIReference(
+                equipment_category = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
-                gear_category = dnd5epy.models.api_reference.APIReference(
+                gear_category = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
-                cost = dnd5epy.models.cost.Cost(
+                cost = openapi_client.models.cost.Cost(
                     quantity = 1.337, 
                     unit = '', ), 
                 weight = 1.337

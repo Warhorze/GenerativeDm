@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.feature import Feature
+from openapi_client.models.feature import Feature
 
 # TODO update the JSON string below
 json = "{}"

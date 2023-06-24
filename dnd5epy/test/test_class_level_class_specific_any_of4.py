@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.class_level_class_specific_any_of4 import ClassLevelClassSpecificAnyOf4  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.class_level_class_specific_any_of4 import ClassLevelClassSpecificAnyOf4  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestClassLevelClassSpecificAnyOf4(unittest.TestCase):
     """ClassLevelClassSpecificAnyOf4 unit test stubs"""
@@ -35,7 +35,7 @@ class TestClassLevelClassSpecificAnyOf4(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `ClassLevelClassSpecificAnyOf4`
         """
-        model = dnd5epy.models.class_level_class_specific_any_of4.ClassLevelClassSpecificAnyOf4()  # noqa: E501
+        model = openapi_client.models.class_level_class_specific_any_of4.ClassLevelClassSpecificAnyOf4()  # noqa: E501
         if include_optional :
             return ClassLevelClassSpecificAnyOf4(
                 action_surges = 1.337, 

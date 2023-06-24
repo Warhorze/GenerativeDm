@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.trait_all_of_trait_specific_one_of_breath_weapon_damage import TraitAllOfTraitSpecificOneOfBreathWeaponDamage  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.trait_all_of_trait_specific_one_of_breath_weapon_damage import TraitAllOfTraitSpecificOneOfBreathWeaponDamage  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestTraitAllOfTraitSpecificOneOfBreathWeaponDamage(unittest.TestCase):
     """TraitAllOfTraitSpecificOneOfBreathWeaponDamage unit test stubs"""
@@ -35,7 +35,7 @@ class TestTraitAllOfTraitSpecificOneOfBreathWeaponDamage(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `TraitAllOfTraitSpecificOneOfBreathWeaponDamage`
         """
-        model = dnd5epy.models.trait_all_of_trait_specific_one_of_breath_weapon_damage.TraitAllOfTraitSpecificOneOfBreathWeaponDamage()  # noqa: E501
+        model = openapi_client.models.trait_all_of_trait_specific_one_of_breath_weapon_damage.TraitAllOfTraitSpecificOneOfBreathWeaponDamage()  # noqa: E501
         if include_optional :
             return TraitAllOfTraitSpecificOneOfBreathWeaponDamage(
                 damage_at_character_level = {

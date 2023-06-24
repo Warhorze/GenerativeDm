@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.resource_description import ResourceDescription
+from openapi_client.models.resource_description import ResourceDescription
 
 # TODO update the JSON string below
 json = "{}"

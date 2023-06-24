@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.spellcasting_info_inner import SpellcastingInfoInner
+from openapi_client.models.spellcasting_info_inner import SpellcastingInfoInner
 
 # TODO update the JSON string below
 json = "{}"

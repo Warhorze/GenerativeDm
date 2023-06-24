@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.resource_description import ResourceDescription  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.resource_description import ResourceDescription  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestResourceDescription(unittest.TestCase):
     """ResourceDescription unit test stubs"""
@@ -35,7 +35,7 @@ class TestResourceDescription(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `ResourceDescription`
         """
-        model = dnd5epy.models.resource_description.ResourceDescription()  # noqa: E501
+        model = openapi_client.models.resource_description.ResourceDescription()  # noqa: E501
         if include_optional :
             return ResourceDescription(
                 desc = [

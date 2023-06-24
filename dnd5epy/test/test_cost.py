@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.cost import Cost  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.cost import Cost  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestCost(unittest.TestCase):
     """Cost unit test stubs"""
@@ -35,7 +35,7 @@ class TestCost(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Cost`
         """
-        model = dnd5epy.models.cost.Cost()  # noqa: E501
+        model = openapi_client.models.cost.Cost()  # noqa: E501
         if include_optional :
             return Cost(
                 quantity = 1.337, 

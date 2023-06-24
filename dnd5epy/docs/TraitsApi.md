@@ -1,6 +1,6 @@
-# dnd5epy.TraitsApi
+# openapi_client.TraitsApi
 
-All URIs are relative to *https://www.dnd5eapi.co*
+All URIs are relative to *https://www.dnd5epypyapi.co*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -17,22 +17,22 @@ Get a trait by index.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.trait import Trait
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.trait import Trait
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.TraitsApi(api_client)
+    api_instance = openapi_client.TraitsApi(api_client)
     index = 'trance' # str | The `index` of the `Trait` to get.
 
     try:

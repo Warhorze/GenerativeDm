@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.equipment import Equipment  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.equipment import Equipment  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestEquipment(unittest.TestCase):
     """Equipment unit test stubs"""
@@ -35,7 +35,7 @@ class TestEquipment(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Equipment`
         """
-        model = dnd5epy.models.equipment.Equipment()  # noqa: E501
+        model = openapi_client.models.equipment.Equipment()  # noqa: E501
         if include_optional :
             return Equipment(
                 index = '', 
@@ -44,35 +44,35 @@ class TestEquipment(unittest.TestCase):
                 desc = [
                     ''
                     ], 
-                equipment_category = dnd5epy.models.api_reference.APIReference(
+                equipment_category = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
                 weapon_category = '', 
                 weapon_range = '', 
                 category_range = '', 
-                range = dnd5epy.models.weapon_all_of_range.Weapon_allOf_range(
+                range = openapi_client.models.weapon_all_of_range.Weapon_allOf_range(
                     normal = 1.337, 
                     long = 1.337, ), 
-                damage = dnd5epy.models.damage.Damage(
+                damage = openapi_client.models.damage.Damage(
                     damage_dice = '', 
-                    damage_type = dnd5epy.models.api_reference.APIReference(
+                    damage_type = openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', ), ), 
-                two_handed_damage = dnd5epy.models.damage.Damage(
+                two_handed_damage = openapi_client.models.damage.Damage(
                     damage_dice = '', 
-                    damage_type = dnd5epy.models.api_reference.APIReference(
+                    damage_type = openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', ), ), 
                 properties = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
-                cost = dnd5epy.models.cost.Cost(
+                cost = openapi_client.models.cost.Cost(
                     quantity = 1.337, 
                     unit = '', ), 
                 weight = 1.337, 
@@ -82,12 +82,12 @@ class TestEquipment(unittest.TestCase):
                     }, 
                 str_minimum = 1.337, 
                 stealth_disadvantage = True, 
-                gear_category = dnd5epy.models.api_reference.APIReference(
+                gear_category = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
                 contents = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )

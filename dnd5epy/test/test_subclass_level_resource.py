@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.subclass_level_resource import SubclassLevelResource  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.subclass_level_resource import SubclassLevelResource  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestSubclassLevelResource(unittest.TestCase):
     """SubclassLevelResource unit test stubs"""
@@ -35,23 +35,23 @@ class TestSubclassLevelResource(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `SubclassLevelResource`
         """
-        model = dnd5epy.models.subclass_level_resource.SubclassLevelResource()  # noqa: E501
+        model = openapi_client.models.subclass_level_resource.SubclassLevelResource()  # noqa: E501
         if include_optional :
             return SubclassLevelResource(
                 index = '', 
                 url = '', 
                 level = 1.337, 
                 features = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
-                var_class = dnd5epy.models.api_reference.APIReference(
+                var_class = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
-                subclass = dnd5epy.models.api_reference.APIReference(
+                subclass = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', )

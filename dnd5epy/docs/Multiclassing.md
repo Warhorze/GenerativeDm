@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.multiclassing import Multiclassing
+from openapi_client.models.multiclassing import Multiclassing
 
 # TODO update the JSON string below
 json = "{}"

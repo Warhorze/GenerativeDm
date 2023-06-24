@@ -1,6 +1,6 @@
-# dnd5epy.RacesApi
+# openapi_client.RacesApi
 
-All URIs are relative to *https://www.dnd5eapi.co*
+All URIs are relative to *https://www.dnd5epypyapi.co*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -22,22 +22,22 @@ Each race grants your character ability and skill bonuses as well as racial trai
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.race import Race
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.race import Race
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.RacesApi(api_client)
+    api_instance = openapi_client.RacesApi(api_client)
     index = 'elf' # str | The `index` of the race to get. 
 
     try:
@@ -86,22 +86,22 @@ Get proficiencies available for a race.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.api_reference_list import APIReferenceList
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.api_reference_list import APIReferenceList
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.RacesApi(api_client)
+    api_instance = openapi_client.RacesApi(api_client)
     index = 'elf' # str | The `index` of the race to get. 
 
     try:
@@ -150,22 +150,22 @@ Get subraces available for a race.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.api_reference_list import APIReferenceList
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.api_reference_list import APIReferenceList
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.RacesApi(api_client)
+    api_instance = openapi_client.RacesApi(api_client)
     index = 'elf' # str | The `index` of the race to get. 
 
     try:
@@ -214,22 +214,22 @@ Get traits available for a race.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.api_reference_list import APIReferenceList
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.api_reference_list import APIReferenceList
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.RacesApi(api_client)
+    api_instance = openapi_client.RacesApi(api_client)
     index = 'elf' # str | The `index` of the race to get. 
 
     try:

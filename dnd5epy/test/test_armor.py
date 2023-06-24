@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.armor import Armor  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.armor import Armor  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestArmor(unittest.TestCase):
     """Armor unit test stubs"""
@@ -35,7 +35,7 @@ class TestArmor(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Armor`
         """
-        model = dnd5epy.models.armor.Armor()  # noqa: E501
+        model = openapi_client.models.armor.Armor()  # noqa: E501
         if include_optional :
             return Armor(
                 index = '', 
@@ -44,7 +44,7 @@ class TestArmor(unittest.TestCase):
                 desc = [
                     ''
                     ], 
-                equipment_category = dnd5epy.models.api_reference.APIReference(
+                equipment_category = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
@@ -54,7 +54,7 @@ class TestArmor(unittest.TestCase):
                     }, 
                 str_minimum = 1.337, 
                 stealth_disadvantage = True, 
-                cost = dnd5epy.models.cost.Cost(
+                cost = openapi_client.models.cost.Cost(
                     quantity = 1.337, 
                     unit = '', ), 
                 weight = 1.337

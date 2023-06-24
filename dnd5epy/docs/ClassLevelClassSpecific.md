@@ -41,7 +41,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.class_level_class_specific import ClassLevelClassSpecific
+from openapi_client.models.class_level_class_specific import ClassLevelClassSpecific
 
 # TODO update the JSON string below
 json = "{}"

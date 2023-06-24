@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.magic_item_all_of_rarity import MagicItemAllOfRarity
+from openapi_client.models.magic_item_all_of_rarity import MagicItemAllOfRarity
 
 # TODO update the JSON string below
 json = "{}"

@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.gear import Gear
+from openapi_client.models.gear import Gear
 
 # TODO update the JSON string below
 json = "{}"

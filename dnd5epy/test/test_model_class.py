@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.model_class import ModelClass  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.model_class import ModelClass  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestModelClass(unittest.TestCase):
     """ModelClass unit test stubs"""
@@ -35,7 +35,7 @@ class TestModelClass(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `ModelClass`
         """
-        model = dnd5epy.models.model_class.ModelClass()  # noqa: E501
+        model = openapi_client.models.model_class.ModelClass()  # noqa: E501
         if include_optional :
             return ModelClass(
                 index = '', 
@@ -43,35 +43,35 @@ class TestModelClass(unittest.TestCase):
                 url = '', 
                 hit_die = 1.337, 
                 class_levels = '', 
-                multi_classing = dnd5epy.models.multiclassing.Multiclassing(
+                multi_classing = openapi_client.models.multiclassing.Multiclassing(
                     prerequisites = [
-                        dnd5epy.models.prerequisite.Prerequisite(
+                        openapi_client.models.prerequisite.Prerequisite(
                             ability_score = null, 
                             minimum_score = 1.337, )
                         ], 
                     prerequisite_options = [
-                        dnd5epy.models.choice.Choice(
+                        openapi_client.models.choice.Choice(
                             desc = '', 
                             choose = 1.337, 
                             type = '', 
                             from = null, )
                         ], 
                     proficiencies = [
-                        dnd5epy.models.api_reference.APIReference(
+                        openapi_client.models.api_reference.APIReference(
                             index = '', 
                             name = '', 
                             url = '', )
                         ], 
                     proficiency_choices = [
-                        dnd5epy.models.choice.Choice(
+                        openapi_client.models.choice.Choice(
                             desc = '', 
                             choose = 1.337, 
                             type = '', )
                         ], ), 
-                spellcasting = dnd5epy.models.spellcasting.Spellcasting(
+                spellcasting = openapi_client.models.spellcasting.Spellcasting(
                     level = 1.337, 
                     info = [
-                        dnd5epy.models.spellcasting_info_inner.Spellcasting_info_inner(
+                        openapi_client.models.spellcasting_info_inner.Spellcasting_info_inner(
                             name = '', 
                             desc = [
                                 ''
@@ -80,41 +80,41 @@ class TestModelClass(unittest.TestCase):
                     spellcasting_ability = null, ), 
                 spells = '', 
                 starting_equipment = [
-                    dnd5epy.models.class_all_of_starting_equipment.Class_allOf_starting_equipment(
+                    openapi_client.models.class_all_of_starting_equipment.Class_allOf_starting_equipment(
                         quantity = 1.337, 
-                        equipment = dnd5epy.models.api_reference.APIReference(
+                        equipment = openapi_client.models.api_reference.APIReference(
                             index = '', 
                             name = '', 
                             url = '', ), )
                     ], 
                 starting_equipment_options = [
-                    dnd5epy.models.choice.Choice(
+                    openapi_client.models.choice.Choice(
                         desc = '', 
                         choose = 1.337, 
                         type = '', 
                         from = null, )
                     ], 
                 proficiency_choices = [
-                    dnd5epy.models.choice.Choice(
+                    openapi_client.models.choice.Choice(
                         desc = '', 
                         choose = 1.337, 
                         type = '', 
                         from = null, )
                     ], 
                 proficiencies = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
                 saving_throws = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
                 subclasses = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )

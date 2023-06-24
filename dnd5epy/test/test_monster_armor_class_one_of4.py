@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.monster_armor_class_one_of4 import MonsterArmorClassOneOf4  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.monster_armor_class_one_of4 import MonsterArmorClassOneOf4  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestMonsterArmorClassOneOf4(unittest.TestCase):
     """MonsterArmorClassOneOf4 unit test stubs"""
@@ -35,12 +35,12 @@ class TestMonsterArmorClassOneOf4(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `MonsterArmorClassOneOf4`
         """
-        model = dnd5epy.models.monster_armor_class_one_of4.MonsterArmorClassOneOf4()  # noqa: E501
+        model = openapi_client.models.monster_armor_class_one_of4.MonsterArmorClassOneOf4()  # noqa: E501
         if include_optional :
             return MonsterArmorClassOneOf4(
                 type = 'condition', 
                 value = 1.337, 
-                condition = dnd5epy.models.api_reference.APIReference(
+                condition = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 

@@ -1,6 +1,6 @@
-# dnd5epy.EquipmentApi
+# openapi_client.EquipmentApi
 
-All URIs are relative to *https://www.dnd5eapi.co*
+All URIs are relative to *https://www.dnd5epypyapi.co*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -22,22 +22,22 @@ These are the categories that various equipment fall under.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.equipment_category import EquipmentCategory
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.equipment_category import EquipmentCategory
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.EquipmentApi(api_client)
+    api_instance = openapi_client.EquipmentApi(api_client)
     index = 'waterborne-vehicles' # str | The `index` of the equipment category score to get.  Available values can be found in the resource list for this endpoint. 
 
     try:
@@ -88,22 +88,22 @@ Get an equipment item by index.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.equipment import Equipment
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.equipment import Equipment
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.EquipmentApi(api_client)
+    api_instance = openapi_client.EquipmentApi(api_client)
     index = 'club' # str | The `index` of the equipment to get.  Available values can be found in the [`ResourceList`](#get-/api/-endpoint-) for `equipment`. 
 
     try:
@@ -154,22 +154,22 @@ These are the various magic items you can find in the game.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.magic_item import MagicItem
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.magic_item import MagicItem
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.EquipmentApi(api_client)
+    api_instance = openapi_client.EquipmentApi(api_client)
     index = 'adamantine-armor' # str | The `index` of the magic item to get.  Available values can be found in the resource list for this endpoint. 
 
     try:
@@ -218,22 +218,22 @@ Get a weapon property by index.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.weapon_property import WeaponProperty
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.weapon_property import WeaponProperty
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.EquipmentApi(api_client)
+    api_instance = openapi_client.EquipmentApi(api_client)
     index = 'ammunition' # str | The `index` of the weapon property to get. 
 
     try:

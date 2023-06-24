@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.monster_armor_class_one_of4 import MonsterArmorClassOneOf4
+from openapi_client.models.monster_armor_class_one_of4 import MonsterArmorClassOneOf4
 
 # TODO update the JSON string below
 json = "{}"

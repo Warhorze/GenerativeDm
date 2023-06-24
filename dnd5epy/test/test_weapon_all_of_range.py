@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.weapon_all_of_range import WeaponAllOfRange  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.weapon_all_of_range import WeaponAllOfRange  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestWeaponAllOfRange(unittest.TestCase):
     """WeaponAllOfRange unit test stubs"""
@@ -35,7 +35,7 @@ class TestWeaponAllOfRange(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `WeaponAllOfRange`
         """
-        model = dnd5epy.models.weapon_all_of_range.WeaponAllOfRange()  # noqa: E501
+        model = openapi_client.models.weapon_all_of_range.WeaponAllOfRange()  # noqa: E501
         if include_optional :
             return WeaponAllOfRange(
                 normal = 1.337, 

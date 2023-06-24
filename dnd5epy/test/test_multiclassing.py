@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.multiclassing import Multiclassing  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.multiclassing import Multiclassing  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestMulticlassing(unittest.TestCase):
     """Multiclassing unit test stubs"""
@@ -35,29 +35,29 @@ class TestMulticlassing(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Multiclassing`
         """
-        model = dnd5epy.models.multiclassing.Multiclassing()  # noqa: E501
+        model = openapi_client.models.multiclassing.Multiclassing()  # noqa: E501
         if include_optional :
             return Multiclassing(
                 prerequisites = [
-                    dnd5epy.models.prerequisite.Prerequisite(
+                    openapi_client.models.prerequisite.Prerequisite(
                         ability_score = null, 
                         minimum_score = 1.337, )
                     ], 
                 prerequisite_options = [
-                    dnd5epy.models.choice.Choice(
+                    openapi_client.models.choice.Choice(
                         desc = '', 
                         choose = 1.337, 
                         type = '', 
                         from = null, )
                     ], 
                 proficiencies = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
                 proficiency_choices = [
-                    dnd5epy.models.choice.Choice(
+                    openapi_client.models.choice.Choice(
                         desc = '', 
                         choose = 1.337, 
                         type = '', 

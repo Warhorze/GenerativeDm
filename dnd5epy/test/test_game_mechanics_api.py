@@ -14,16 +14,16 @@
 
 import unittest
 
-import dnd5epy
-from dnd5epy.api.game_mechanics_api import GameMechanicsApi  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.api.game_mechanics_api import GameMechanicsApi  # noqa: E501
+from openapi_client.rest import ApiException
 
 
 class TestGameMechanicsApi(unittest.TestCase):
     """GameMechanicsApi unit test stubs"""
 
     def setUp(self):
-        self.api = dnd5epy.api.game_mechanics_api.GameMechanicsApi()  # noqa: E501
+        self.api = openapi_client.api.game_mechanics_api.GameMechanicsApi()  # noqa: E501
 
     def tearDown(self):
         pass

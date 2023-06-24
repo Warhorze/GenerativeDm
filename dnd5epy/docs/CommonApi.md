@@ -1,6 +1,6 @@
-# dnd5epy.CommonApi
+# openapi_client.CommonApi
 
-All URIs are relative to *https://www.dnd5eapi.co*
+All URIs are relative to *https://www.dnd5epypyapi.co*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -20,22 +20,22 @@ Currently only the [`/spells`](#get-/api/spells) and [`/monsters`](#get-/api/mon
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.api_reference_list import APIReferenceList
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.api_reference_list import APIReferenceList
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.CommonApi(api_client)
+    api_instance = openapi_client.CommonApi(api_client)
     endpoint = 'ability-scores' # str | 
 
     try:
@@ -86,21 +86,21 @@ Making a request to the API's base URL returns an object containing available en
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.CommonApi(api_client)
+    api_instance = openapi_client.CommonApi(api_client)
 
     try:
         # Get all resource URLs.

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.api_reference_list import APIReferenceList
+from openapi_client.models.api_reference_list import APIReferenceList
 
 # TODO update the JSON string below
 json = "{}"

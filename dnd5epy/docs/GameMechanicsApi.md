@@ -1,6 +1,6 @@
-# dnd5epy.GameMechanicsApi
+# openapi_client.GameMechanicsApi
 
-All URIs are relative to *https://www.dnd5eapi.co*
+All URIs are relative to *https://www.dnd5epypyapi.co*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -21,22 +21,22 @@ Get a condition by index.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.condition import Condition
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.condition import Condition
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.GameMechanicsApi(api_client)
+    api_instance = openapi_client.GameMechanicsApi(api_client)
     index = 'blinded' # str | The `index` of the condition to get. 
 
     try:
@@ -87,22 +87,22 @@ Get a damage type by index.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.damage_type import DamageType
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.damage_type import DamageType
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.GameMechanicsApi(api_client)
+    api_instance = openapi_client.GameMechanicsApi(api_client)
     index = 'acid' # str | The `index` of the damage type to get. 
 
     try:
@@ -153,22 +153,22 @@ Get a magic school by index.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.magic_school import MagicSchool
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.magic_school import MagicSchool
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.GameMechanicsApi(api_client)
+    api_instance = openapi_client.GameMechanicsApi(api_client)
     index = 'abjuration' # str | The `index` of the magic school to get. 
 
     try:

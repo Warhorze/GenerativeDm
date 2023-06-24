@@ -1,6 +1,6 @@
-# dnd5epy.SubclassesApi
+# openapi_client.SubclassesApi
 
-All URIs are relative to *https://www.dnd5eapi.co*
+All URIs are relative to *https://www.dnd5epypyapi.co*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -21,22 +21,22 @@ Get features available for a subclass.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.api_reference_list import APIReferenceList
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.api_reference_list import APIReferenceList
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.SubclassesApi(api_client)
+    api_instance = openapi_client.SubclassesApi(api_client)
     index = 'fiend' # str | The `index` of the subclass to get. 
 
     try:
@@ -87,22 +87,22 @@ Subclasses reflect the different paths a class may take as levels are gained.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.subclass import Subclass
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.subclass import Subclass
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.SubclassesApi(api_client)
+    api_instance = openapi_client.SubclassesApi(api_client)
     index = 'fiend' # str | The `index` of the subclass to get. 
 
     try:
@@ -151,22 +151,22 @@ Get all level resources for a subclass.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.subclass_level_resource import SubclassLevelResource
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.subclass_level_resource import SubclassLevelResource
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.SubclassesApi(api_client)
+    api_instance = openapi_client.SubclassesApi(api_client)
     index = 'fiend' # str | The `index` of the subclass to get. 
 
     try:
@@ -215,22 +215,22 @@ Get features of the requested spell level available to the class.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.api_reference_list import APIReferenceList
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.api_reference_list import APIReferenceList
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.SubclassesApi(api_client)
+    api_instance = openapi_client.SubclassesApi(api_client)
     index = 'fiend' # str | The `index` of the subclass to get. 
     subclass_level = 6 # int | 
 
@@ -281,22 +281,22 @@ Get level resources for a subclass and level.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.subclass_level import SubclassLevel
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.subclass_level import SubclassLevel
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.SubclassesApi(api_client)
+    api_instance = openapi_client.SubclassesApi(api_client)
     index = 'fiend' # str | The `index` of the subclass to get. 
     subclass_level = 6 # int | 
 

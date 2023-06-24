@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.feat import Feat  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.feat import Feat  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestFeat(unittest.TestCase):
     """Feat unit test stubs"""
@@ -35,7 +35,7 @@ class TestFeat(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Feat`
         """
-        model = dnd5epy.models.feat.Feat()  # noqa: E501
+        model = openapi_client.models.feat.Feat()  # noqa: E501
         if include_optional :
             return Feat(
                 index = '', 
@@ -45,7 +45,7 @@ class TestFeat(unittest.TestCase):
                     ''
                     ], 
                 prerequisites = [
-                    dnd5epy.models.prerequisite.Prerequisite(
+                    openapi_client.models.prerequisite.Prerequisite(
                         ability_score = null, 
                         minimum_score = 1.337, )
                     ]

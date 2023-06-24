@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.language import Language  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.language import Language  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestLanguage(unittest.TestCase):
     """Language unit test stubs"""
@@ -35,7 +35,7 @@ class TestLanguage(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Language`
         """
-        model = dnd5epy.models.language.Language()  # noqa: E501
+        model = openapi_client.models.language.Language()  # noqa: E501
         if include_optional :
             return Language(
                 index = '', 

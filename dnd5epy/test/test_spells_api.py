@@ -14,16 +14,16 @@
 
 import unittest
 
-import dnd5epy
-from dnd5epy.api.spells_api import SpellsApi  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.api.spells_api import SpellsApi  # noqa: E501
+from openapi_client.rest import ApiException
 
 
 class TestSpellsApi(unittest.TestCase):
     """SpellsApi unit test stubs"""
 
     def setUp(self):
-        self.api = dnd5epy.api.spells_api.SpellsApi()  # noqa: E501
+        self.api = openapi_client.api.spells_api.SpellsApi()  # noqa: E501
 
     def tearDown(self):
         pass

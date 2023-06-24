@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.ability_bonus import AbilityBonus  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.ability_bonus import AbilityBonus  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestAbilityBonus(unittest.TestCase):
     """AbilityBonus unit test stubs"""
@@ -35,11 +35,11 @@ class TestAbilityBonus(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `AbilityBonus`
         """
-        model = dnd5epy.models.ability_bonus.AbilityBonus()  # noqa: E501
+        model = openapi_client.models.ability_bonus.AbilityBonus()  # noqa: E501
         if include_optional :
             return AbilityBonus(
                 bonus = 1.337, 
-                ability_score = dnd5epy.models.api_reference.APIReference(
+                ability_score = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', )

@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.class_level_class_specific_any_of5_martial_arts import ClassLevelClassSpecificAnyOf5MartialArts  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.class_level_class_specific_any_of5_martial_arts import ClassLevelClassSpecificAnyOf5MartialArts  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestClassLevelClassSpecificAnyOf5MartialArts(unittest.TestCase):
     """ClassLevelClassSpecificAnyOf5MartialArts unit test stubs"""
@@ -35,7 +35,7 @@ class TestClassLevelClassSpecificAnyOf5MartialArts(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `ClassLevelClassSpecificAnyOf5MartialArts`
         """
-        model = dnd5epy.models.class_level_class_specific_any_of5_martial_arts.ClassLevelClassSpecificAnyOf5MartialArts()  # noqa: E501
+        model = openapi_client.models.class_level_class_specific_any_of5_martial_arts.ClassLevelClassSpecificAnyOf5MartialArts()  # noqa: E501
         if include_optional :
             return ClassLevelClassSpecificAnyOf5MartialArts(
                 dice_count = 1.337, 

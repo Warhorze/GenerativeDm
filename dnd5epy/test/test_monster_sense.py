@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.monster_sense import MonsterSense  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.monster_sense import MonsterSense  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestMonsterSense(unittest.TestCase):
     """MonsterSense unit test stubs"""
@@ -35,7 +35,7 @@ class TestMonsterSense(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `MonsterSense`
         """
-        model = dnd5epy.models.monster_sense.MonsterSense()  # noqa: E501
+        model = openapi_client.models.monster_sense.MonsterSense()  # noqa: E501
         if include_optional :
             return MonsterSense(
                 passive_perception = 1.337, 

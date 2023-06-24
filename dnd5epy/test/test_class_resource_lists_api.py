@@ -14,16 +14,16 @@
 
 import unittest
 
-import dnd5epy
-from dnd5epy.api.class_resource_lists_api import ClassResourceListsApi  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.api.class_resource_lists_api import ClassResourceListsApi  # noqa: E501
+from openapi_client.rest import ApiException
 
 
 class TestClassResourceListsApi(unittest.TestCase):
     """ClassResourceListsApi unit test stubs"""
 
     def setUp(self):
-        self.api = dnd5epy.api.class_resource_lists_api.ClassResourceListsApi()  # noqa: E501
+        self.api = openapi_client.api.class_resource_lists_api.ClassResourceListsApi()  # noqa: E501
 
     def tearDown(self):
         pass

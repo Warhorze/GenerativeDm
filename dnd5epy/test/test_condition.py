@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.condition import Condition  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.condition import Condition  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestCondition(unittest.TestCase):
     """Condition unit test stubs"""
@@ -35,7 +35,7 @@ class TestCondition(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Condition`
         """
-        model = dnd5epy.models.condition.Condition()  # noqa: E501
+        model = openapi_client.models.condition.Condition()  # noqa: E501
         if include_optional :
             return Condition(
                 index = '', 

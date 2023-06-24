@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.monster_all_of_speed import MonsterAllOfSpeed
+from openapi_client.models.monster_all_of_speed import MonsterAllOfSpeed
 
 # TODO update the JSON string below
 json = "{}"

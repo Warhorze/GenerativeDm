@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.monster_sense import MonsterSense
+from openapi_client.models.monster_sense import MonsterSense
 
 # TODO update the JSON string below
 json = "{}"

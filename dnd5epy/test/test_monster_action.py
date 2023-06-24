@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.monster_action import MonsterAction  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.monster_action import MonsterAction  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestMonsterAction(unittest.TestCase):
     """MonsterAction unit test stubs"""
@@ -35,57 +35,57 @@ class TestMonsterAction(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `MonsterAction`
         """
-        model = dnd5epy.models.monster_action.MonsterAction()  # noqa: E501
+        model = openapi_client.models.monster_action.MonsterAction()  # noqa: E501
         if include_optional :
             return MonsterAction(
                 name = '', 
                 desc = '', 
-                action_options = dnd5epy.models.choice.Choice(
+                action_options = openapi_client.models.choice.Choice(
                     desc = '', 
                     choose = 1.337, 
                     type = '', 
                     from = null, ), 
                 actions = [
-                    dnd5epy.models.monster_multi_attack_action.MonsterMultiAttackAction(
+                    openapi_client.models.monster_multi_attack_action.MonsterMultiAttackAction(
                         action_name = '', 
                         count = 1.337, 
                         type = 'melee', )
                     ], 
-                options = dnd5epy.models.choice.Choice(
+                options = openapi_client.models.choice.Choice(
                     desc = '', 
                     choose = 1.337, 
                     type = '', 
                     from = null, ), 
                 multiattack_type = '', 
                 attack_bonus = 1.337, 
-                dc = dnd5epy.models.dc.DC(
-                    dc_type = dnd5epy.models.api_reference.APIReference(
+                dc = openapi_client.models.dc.DC(
+                    dc_type = openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', ), 
                     dc_value = 1.337, 
                     success_type = '', ), 
                 attacks = [
-                    dnd5epy.models.monster_attack.MonsterAttack(
+                    openapi_client.models.monster_attack.MonsterAttack(
                         name = '', 
-                        dc = dnd5epy.models.dc.DC(
-                            dc_type = dnd5epy.models.api_reference.APIReference(
+                        dc = openapi_client.models.dc.DC(
+                            dc_type = openapi_client.models.api_reference.APIReference(
                                 index = '', 
                                 name = '', 
                                 url = '', ), 
                             dc_value = 1.337, 
                             success_type = '', ), 
-                        damage = dnd5epy.models.damage.Damage(
+                        damage = openapi_client.models.damage.Damage(
                             damage_dice = '', 
-                            damage_type = dnd5epy.models.api_reference.APIReference(
+                            damage_type = openapi_client.models.api_reference.APIReference(
                                 index = '', 
                                 name = '', 
                                 url = '', ), ), )
                     ], 
                 damage = [
-                    dnd5epy.models.damage.Damage(
+                    openapi_client.models.damage.Damage(
                         damage_dice = '', 
-                        damage_type = dnd5epy.models.api_reference.APIReference(
+                        damage_type = openapi_client.models.api_reference.APIReference(
                             index = '', 
                             name = '', 
                             url = '', ), )

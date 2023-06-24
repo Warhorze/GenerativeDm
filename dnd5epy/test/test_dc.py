@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.dc import DC  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.dc import DC  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestDC(unittest.TestCase):
     """DC unit test stubs"""
@@ -35,10 +35,10 @@ class TestDC(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `DC`
         """
-        model = dnd5epy.models.dc.DC()  # noqa: E501
+        model = openapi_client.models.dc.DC()  # noqa: E501
         if include_optional :
             return DC(
-                dc_type = dnd5epy.models.api_reference.APIReference(
+                dc_type = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 

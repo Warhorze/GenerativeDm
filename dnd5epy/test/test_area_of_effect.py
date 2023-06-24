@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.area_of_effect import AreaOfEffect  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.area_of_effect import AreaOfEffect  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestAreaOfEffect(unittest.TestCase):
     """AreaOfEffect unit test stubs"""
@@ -35,7 +35,7 @@ class TestAreaOfEffect(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `AreaOfEffect`
         """
-        model = dnd5epy.models.area_of_effect.AreaOfEffect()  # noqa: E501
+        model = openapi_client.models.area_of_effect.AreaOfEffect()  # noqa: E501
         if include_optional :
             return AreaOfEffect(
                 size = 1.337, 

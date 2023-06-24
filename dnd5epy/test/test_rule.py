@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.rule import Rule  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.rule import Rule  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestRule(unittest.TestCase):
     """Rule unit test stubs"""
@@ -35,7 +35,7 @@ class TestRule(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Rule`
         """
-        model = dnd5epy.models.rule.Rule()  # noqa: E501
+        model = openapi_client.models.rule.Rule()  # noqa: E501
         if include_optional :
             return Rule(
                 index = '', 
@@ -43,7 +43,7 @@ class TestRule(unittest.TestCase):
                 url = '', 
                 desc = '', 
                 subsections = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )

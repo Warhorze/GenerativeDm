@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.alignment import Alignment
+from openapi_client.models.alignment import Alignment
 
 # TODO update the JSON string below
 json = "{}"

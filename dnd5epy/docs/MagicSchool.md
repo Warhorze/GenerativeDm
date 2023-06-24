@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.magic_school import MagicSchool
+from openapi_client.models.magic_school import MagicSchool
 
 # TODO update the JSON string below
 json = "{}"

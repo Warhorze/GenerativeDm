@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.option_one_of3 import OptionOneOf3
+from openapi_client.models.option_one_of3 import OptionOneOf3
 
 # TODO update the JSON string below
 json = "{}"

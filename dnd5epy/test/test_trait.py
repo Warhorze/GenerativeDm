@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.trait import Trait  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.trait import Trait  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestTrait(unittest.TestCase):
     """Trait unit test stubs"""
@@ -35,7 +35,7 @@ class TestTrait(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Trait`
         """
-        model = dnd5epy.models.trait.Trait()  # noqa: E501
+        model = openapi_client.models.trait.Trait()  # noqa: E501
         if include_optional :
             return Trait(
                 index = '', 
@@ -45,29 +45,29 @@ class TestTrait(unittest.TestCase):
                     ''
                     ], 
                 races = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
                 subraces = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
                 proficiencies = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
-                proficiency_choices = dnd5epy.models.choice.Choice(
+                proficiency_choices = openapi_client.models.choice.Choice(
                     desc = '', 
                     choose = 1.337, 
                     type = '', 
                     from = null, ), 
-                language_options = dnd5epy.models.choice.Choice(
+                language_options = openapi_client.models.choice.Choice(
                     desc = '', 
                     choose = 1.337, 
                     type = '', 

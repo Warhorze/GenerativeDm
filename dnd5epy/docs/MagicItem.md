@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.magic_item import MagicItem
+from openapi_client.models.magic_item import MagicItem
 
 # TODO update the JSON string below
 json = "{}"

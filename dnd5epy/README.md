@@ -1,7 +1,7 @@
 # openapi-client
 # Introduction
 
-Welcome to the dnd5eapi, the Dungeons & Dragons 5th Edition API!
+Welcome to the dnd5epypyapi, the Dungeons & Dragons 5th Edition API!
 This documentation should help you familiarize yourself with the resources
 available and how to consume them with HTTP requests. Read through the getting
 started section before you dive in. Most of your problems should be solved
@@ -17,7 +17,7 @@ definitions below and send requests directly from the endpoint documentation!
 
 For example, if you paste and run this `curl` command:
 ```bash
-curl -X GET \"https://www.dnd5eapi.co/api/ability-scores/cha\" -H \"Accept: application/json\"
+curl -X GET \"https://www.dnd5epypyapi.co/api/ability-scores/cha\" -H \"Accept: application/json\"
 ```
 
 We should see a result containing details about the Charisma ability score:
@@ -64,7 +64,7 @@ We should see a result containing details about the Charisma ability score:
 
 ## Authentication
 
-The dnd5eapi is a completely open API. No authentication is required to query
+The dnd5epypyapi is a completely open API. No authentication is required to query
 and get data. This also means that we've limited what you can do to just
 `GET`-ing the data. If you find a mistake in the data, feel free to
 [message us](https://discord.gg/TQuYTv7).
@@ -72,7 +72,7 @@ and get data. This also means that we've limited what you can do to just
 ## GraphQL
 
 This API supports [GraphQL](https://graphql.org/). The GraphQL URL for this API
-is `https://www.dnd5eapi.co/graphql`. Most of your questions regarding the GraphQL schema can be answered
+is `https://www.dnd5epypyapi.co/graphql`. Most of your questions regarding the GraphQL schema can be answered
 by querying the endpoint with the Apollo sandbox explorer.
 
 ## Schemas
@@ -227,7 +227,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import dnd5epy
+import openapi_client
 ```
 
 ### Setuptools
@@ -241,7 +241,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import dnd5epy
+import openapi_client
 ```
 
 ### Tests
@@ -255,22 +255,22 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 
 import time
-import dnd5epy
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.CharacterDataApi(api_client)
+    api_instance = openapi_client.CharacterDataApi(api_client)
     index = 'cha' # str | The `index` of the ability score to get. 
 
     try:
@@ -285,7 +285,7 @@ with dnd5epy.ApiClient(configuration) as api_client:
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://www.dnd5eapi.co*
+All URIs are relative to *https://www.dnd5epypyapi.co*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

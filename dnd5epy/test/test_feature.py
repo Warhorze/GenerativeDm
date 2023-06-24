@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.feature import Feature  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.feature import Feature  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestFeature(unittest.TestCase):
     """Feature unit test stubs"""
@@ -35,7 +35,7 @@ class TestFeature(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Feature`
         """
-        model = dnd5epy.models.feature.Feature()  # noqa: E501
+        model = openapi_client.models.feature.Feature()  # noqa: E501
         if include_optional :
             return Feature(
                 index = '', 
@@ -45,15 +45,15 @@ class TestFeature(unittest.TestCase):
                     ''
                     ], 
                 level = 1.337, 
-                var_class = dnd5epy.models.api_reference.APIReference(
+                var_class = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
-                subclass = dnd5epy.models.api_reference.APIReference(
+                subclass = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
-                parent = dnd5epy.models.api_reference.APIReference(
+                parent = openapi_client.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 

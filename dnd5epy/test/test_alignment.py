@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.alignment import Alignment  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.alignment import Alignment  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestAlignment(unittest.TestCase):
     """Alignment unit test stubs"""
@@ -35,7 +35,7 @@ class TestAlignment(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Alignment`
         """
-        model = dnd5epy.models.alignment.Alignment()  # noqa: E501
+        model = openapi_client.models.alignment.Alignment()  # noqa: E501
         if include_optional :
             return Alignment(
                 index = '', 

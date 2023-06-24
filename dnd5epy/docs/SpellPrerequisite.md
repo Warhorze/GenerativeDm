@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.spell_prerequisite import SpellPrerequisite
+from openapi_client.models.spell_prerequisite import SpellPrerequisite
 
 # TODO update the JSON string below
 json = "{}"

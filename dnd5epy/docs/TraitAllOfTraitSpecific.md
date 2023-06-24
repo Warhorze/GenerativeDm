@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.trait_all_of_trait_specific import TraitAllOfTraitSpecific
+from openapi_client.models.trait_all_of_trait_specific import TraitAllOfTraitSpecific
 
 # TODO update the JSON string below
 json = "{}"

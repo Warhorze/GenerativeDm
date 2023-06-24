@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.background_all_of_feature import BackgroundAllOfFeature  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.background_all_of_feature import BackgroundAllOfFeature  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestBackgroundAllOfFeature(unittest.TestCase):
     """BackgroundAllOfFeature unit test stubs"""
@@ -35,7 +35,7 @@ class TestBackgroundAllOfFeature(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `BackgroundAllOfFeature`
         """
-        model = dnd5epy.models.background_all_of_feature.BackgroundAllOfFeature()  # noqa: E501
+        model = openapi_client.models.background_all_of_feature.BackgroundAllOfFeature()  # noqa: E501
         if include_optional :
             return BackgroundAllOfFeature(
                 name = '', 

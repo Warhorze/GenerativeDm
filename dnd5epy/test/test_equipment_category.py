@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.equipment_category import EquipmentCategory  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.equipment_category import EquipmentCategory  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestEquipmentCategory(unittest.TestCase):
     """EquipmentCategory unit test stubs"""
@@ -35,14 +35,14 @@ class TestEquipmentCategory(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `EquipmentCategory`
         """
-        model = dnd5epy.models.equipment_category.EquipmentCategory()  # noqa: E501
+        model = openapi_client.models.equipment_category.EquipmentCategory()  # noqa: E501
         if include_optional :
             return EquipmentCategory(
                 index = '', 
                 name = '', 
                 url = '', 
                 equipment = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )

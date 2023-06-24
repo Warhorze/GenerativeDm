@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.choice import Choice  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.choice import Choice  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestChoice(unittest.TestCase):
     """Choice unit test stubs"""
@@ -35,7 +35,7 @@ class TestChoice(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Choice`
         """
-        model = dnd5epy.models.choice.Choice()  # noqa: E501
+        model = openapi_client.models.choice.Choice()  # noqa: E501
         if include_optional :
             return Choice(
                 desc = '', 

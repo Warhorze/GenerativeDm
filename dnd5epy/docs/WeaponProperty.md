@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.weapon_property import WeaponProperty
+from openapi_client.models.weapon_property import WeaponProperty
 
 # TODO update the JSON string below
 json = "{}"

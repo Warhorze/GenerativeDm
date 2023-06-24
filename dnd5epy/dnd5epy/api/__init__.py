@@ -1,20 +1,20 @@
 # flake8: noqa
 
 # import apis into api package
-from dnd5epy.api.character_data_api import CharacterDataApi
-from dnd5epy.api.class_api import ClassApi
-from dnd5epy.api.class_levels_api import ClassLevelsApi
-from dnd5epy.api.class_resource_lists_api import ClassResourceListsApi
-from dnd5epy.api.common_api import CommonApi
-from dnd5epy.api.equipment_api import EquipmentApi
-from dnd5epy.api.feats_api import FeatsApi
-from dnd5epy.api.features_api import FeaturesApi
-from dnd5epy.api.game_mechanics_api import GameMechanicsApi
-from dnd5epy.api.monsters_api import MonstersApi
-from dnd5epy.api.races_api import RacesApi
-from dnd5epy.api.rules_api import RulesApi
-from dnd5epy.api.spells_api import SpellsApi
-from dnd5epy.api.subclasses_api import SubclassesApi
-from dnd5epy.api.subraces_api import SubracesApi
-from dnd5epy.api.traits_api import TraitsApi
+from openapi_client.api.character_data_api import CharacterDataApi
+from openapi_client.api.class_api import ClassApi
+from openapi_client.api.class_levels_api import ClassLevelsApi
+from openapi_client.api.class_resource_lists_api import ClassResourceListsApi
+from openapi_client.api.common_api import CommonApi
+from openapi_client.api.equipment_api import EquipmentApi
+from openapi_client.api.feats_api import FeatsApi
+from openapi_client.api.features_api import FeaturesApi
+from openapi_client.api.game_mechanics_api import GameMechanicsApi
+from openapi_client.api.monsters_api import MonstersApi
+from openapi_client.api.races_api import RacesApi
+from openapi_client.api.rules_api import RulesApi
+from openapi_client.api.spells_api import SpellsApi
+from openapi_client.api.subclasses_api import SubclassesApi
+from openapi_client.api.subraces_api import SubracesApi
+from openapi_client.api.traits_api import TraitsApi
 

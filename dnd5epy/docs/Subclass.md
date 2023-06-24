@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.subclass import Subclass
+from openapi_client.models.subclass import Subclass
 
 # TODO update the JSON string below
 json = "{}"

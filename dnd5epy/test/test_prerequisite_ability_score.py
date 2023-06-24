@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.prerequisite_ability_score import PrerequisiteAbilityScore  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.prerequisite_ability_score import PrerequisiteAbilityScore  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestPrerequisiteAbilityScore(unittest.TestCase):
     """PrerequisiteAbilityScore unit test stubs"""
@@ -35,7 +35,7 @@ class TestPrerequisiteAbilityScore(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `PrerequisiteAbilityScore`
         """
-        model = dnd5epy.models.prerequisite_ability_score.PrerequisiteAbilityScore()  # noqa: E501
+        model = openapi_client.models.prerequisite_ability_score.PrerequisiteAbilityScore()  # noqa: E501
         if include_optional :
             return PrerequisiteAbilityScore(
                 index = '', 

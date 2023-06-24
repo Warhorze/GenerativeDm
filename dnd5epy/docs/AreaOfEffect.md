@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from dnd5epy.models.area_of_effect import AreaOfEffect
+from openapi_client.models.area_of_effect import AreaOfEffect
 
 # TODO update the JSON string below
 json = "{}"

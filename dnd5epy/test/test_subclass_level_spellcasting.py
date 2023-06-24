@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.subclass_level_spellcasting import SubclassLevelSpellcasting  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.subclass_level_spellcasting import SubclassLevelSpellcasting  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestSubclassLevelSpellcasting(unittest.TestCase):
     """SubclassLevelSpellcasting unit test stubs"""
@@ -35,7 +35,7 @@ class TestSubclassLevelSpellcasting(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `SubclassLevelSpellcasting`
         """
-        model = dnd5epy.models.subclass_level_spellcasting.SubclassLevelSpellcasting()  # noqa: E501
+        model = openapi_client.models.subclass_level_spellcasting.SubclassLevelSpellcasting()  # noqa: E501
         if include_optional :
             return SubclassLevelSpellcasting(
                 cantrips_known = 1.337, 

@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.class_level_class_specific_any_of9_creating_spell_slots_inner import ClassLevelClassSpecificAnyOf9CreatingSpellSlotsInner  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.class_level_class_specific_any_of9_creating_spell_slots_inner import ClassLevelClassSpecificAnyOf9CreatingSpellSlotsInner  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestClassLevelClassSpecificAnyOf9CreatingSpellSlotsInner(unittest.TestCase):
     """ClassLevelClassSpecificAnyOf9CreatingSpellSlotsInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestClassLevelClassSpecificAnyOf9CreatingSpellSlotsInner(unittest.TestCase
             optional params are included """
         # uncomment below to create an instance of `ClassLevelClassSpecificAnyOf9CreatingSpellSlotsInner`
         """
-        model = dnd5epy.models.class_level_class_specific_any_of9_creating_spell_slots_inner.ClassLevelClassSpecificAnyOf9CreatingSpellSlotsInner()  # noqa: E501
+        model = openapi_client.models.class_level_class_specific_any_of9_creating_spell_slots_inner.ClassLevelClassSpecificAnyOf9CreatingSpellSlotsInner()  # noqa: E501
         if include_optional :
             return ClassLevelClassSpecificAnyOf9CreatingSpellSlotsInner(
                 spell_slot_level = 1.337, 

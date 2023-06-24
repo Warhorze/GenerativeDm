@@ -1,6 +1,6 @@
-# dnd5epy.RulesApi
+# openapi_client.RulesApi
 
-All URIs are relative to *https://www.dnd5eapi.co*
+All URIs are relative to *https://www.dnd5epypyapi.co*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -20,22 +20,22 @@ Rule sections represent a sub-heading and text that can be found underneath a ru
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.rule_section import RuleSection
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.rule_section import RuleSection
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.RulesApi(api_client)
+    api_instance = openapi_client.RulesApi(api_client)
     index = 'traps' # str | The `index` of the rule section to get. 
 
     try:
@@ -86,22 +86,22 @@ Get a rule by index.
 ```python
 import time
 import os
-import dnd5epy
-from dnd5epy.models.rule import Rule
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.rule import Rule
+from openapi_client.rest import ApiException
 from pprint import pprint
 
-# Defining the host is optional and defaults to https://www.dnd5eapi.co
+# Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = dnd5epy.Configuration(
-    host = "https://www.dnd5eapi.co"
+configuration = openapi_client.Configuration(
+    host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with dnd5epy.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = dnd5epy.RulesApi(api_client)
+    api_instance = openapi_client.RulesApi(api_client)
     index = 'adventuring' # str | The `index` of the rule to get. 
 
     try:

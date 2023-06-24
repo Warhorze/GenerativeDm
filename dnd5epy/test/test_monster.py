@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import dnd5epy
-from dnd5epy.models.monster import Monster  # noqa: E501
-from dnd5epy.rest import ApiException
+import openapi_client
+from openapi_client.models.monster import Monster  # noqa: E501
+from openapi_client.rest import ApiException
 
 class TestMonster(unittest.TestCase):
     """Monster unit test stubs"""
@@ -35,7 +35,7 @@ class TestMonster(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Monster`
         """
-        model = dnd5epy.models.monster.Monster()  # noqa: E501
+        model = openapi_client.models.monster.Monster()  # noqa: E501
         if include_optional :
             return Monster(
                 index = '', 
@@ -56,100 +56,100 @@ class TestMonster(unittest.TestCase):
                 subtype = '', 
                 alignments = 'chaotic neutral', 
                 armor_class = [
-                    dnd5epy.models.monster_armor_class.MonsterArmorClass()
+                    openapi_client.models.monster_armor_class.MonsterArmorClass()
                     ], 
                 hit_points = 1.337, 
                 hit_dice = '', 
                 hit_points_roll = '', 
                 actions = [
-                    dnd5epy.models.monster_action.MonsterAction(
+                    openapi_client.models.monster_action.MonsterAction(
                         name = '', 
                         desc = '', 
-                        action_options = dnd5epy.models.choice.Choice(
+                        action_options = openapi_client.models.choice.Choice(
                             desc = '', 
                             choose = 1.337, 
                             type = '', 
                             from = null, ), 
                         actions = [
-                            dnd5epy.models.monster_multi_attack_action.MonsterMultiAttackAction(
+                            openapi_client.models.monster_multi_attack_action.MonsterMultiAttackAction(
                                 action_name = '', 
                                 count = 1.337, 
                                 type = 'melee', )
                             ], 
-                        options = dnd5epy.models.choice.Choice(
+                        options = openapi_client.models.choice.Choice(
                             desc = '', 
                             choose = 1.337, 
                             type = '', ), 
                         multiattack_type = '', 
                         attack_bonus = 1.337, 
-                        dc = dnd5epy.models.dc.DC(
-                            dc_type = dnd5epy.models.api_reference.APIReference(
+                        dc = openapi_client.models.dc.DC(
+                            dc_type = openapi_client.models.api_reference.APIReference(
                                 index = '', 
                                 name = '', 
                                 url = '', ), 
                             dc_value = 1.337, 
                             success_type = '', ), 
                         attacks = [
-                            dnd5epy.models.monster_attack.MonsterAttack(
+                            openapi_client.models.monster_attack.MonsterAttack(
                                 name = '', 
-                                damage = dnd5epy.models.damage.Damage(
+                                damage = openapi_client.models.damage.Damage(
                                     damage_dice = '', 
-                                    damage_type = dnd5epy.models.api_reference.APIReference(
+                                    damage_type = openapi_client.models.api_reference.APIReference(
                                         index = '', 
                                         name = '', 
                                         url = '', ), ), )
                             ], 
                         damage = [
-                            dnd5epy.models.damage.Damage(
+                            openapi_client.models.damage.Damage(
                                 damage_dice = '', )
                             ], )
                     ], 
                 legendary_actions = [
-                    dnd5epy.models.monster_action.MonsterAction(
+                    openapi_client.models.monster_action.MonsterAction(
                         name = '', 
                         desc = '', 
-                        action_options = dnd5epy.models.choice.Choice(
+                        action_options = openapi_client.models.choice.Choice(
                             desc = '', 
                             choose = 1.337, 
                             type = '', 
                             from = null, ), 
                         actions = [
-                            dnd5epy.models.monster_multi_attack_action.MonsterMultiAttackAction(
+                            openapi_client.models.monster_multi_attack_action.MonsterMultiAttackAction(
                                 action_name = '', 
                                 count = 1.337, 
                                 type = 'melee', )
                             ], 
-                        options = dnd5epy.models.choice.Choice(
+                        options = openapi_client.models.choice.Choice(
                             desc = '', 
                             choose = 1.337, 
                             type = '', ), 
                         multiattack_type = '', 
                         attack_bonus = 1.337, 
-                        dc = dnd5epy.models.dc.DC(
-                            dc_type = dnd5epy.models.api_reference.APIReference(
+                        dc = openapi_client.models.dc.DC(
+                            dc_type = openapi_client.models.api_reference.APIReference(
                                 index = '', 
                                 name = '', 
                                 url = '', ), 
                             dc_value = 1.337, 
                             success_type = '', ), 
                         attacks = [
-                            dnd5epy.models.monster_attack.MonsterAttack(
+                            openapi_client.models.monster_attack.MonsterAttack(
                                 name = '', 
-                                damage = dnd5epy.models.damage.Damage(
+                                damage = openapi_client.models.damage.Damage(
                                     damage_dice = '', 
-                                    damage_type = dnd5epy.models.api_reference.APIReference(
+                                    damage_type = openapi_client.models.api_reference.APIReference(
                                         index = '', 
                                         name = '', 
                                         url = '', ), ), )
                             ], 
                         damage = [
-                            dnd5epy.models.damage.Damage(
+                            openapi_client.models.damage.Damage(
                                 damage_dice = '', )
                             ], )
                     ], 
                 challenge_rating = 0, 
                 condition_immunities = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
@@ -164,83 +164,83 @@ class TestMonster(unittest.TestCase):
                     ''
                     ], 
                 forms = [
-                    dnd5epy.models.api_reference.APIReference(
+                    openapi_client.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
                 languages = '', 
                 proficiencies = [
-                    dnd5epy.models.monster_proficiency.MonsterProficiency(
+                    openapi_client.models.monster_proficiency.MonsterProficiency(
                         value = 1.337, 
-                        proficiency = dnd5epy.models.api_reference.APIReference(
+                        proficiency = openapi_client.models.api_reference.APIReference(
                             index = '', 
                             name = '', 
                             url = '', ), )
                     ], 
                 reactions = [
-                    dnd5epy.models.monster_action.MonsterAction(
+                    openapi_client.models.monster_action.MonsterAction(
                         name = '', 
                         desc = '', 
-                        action_options = dnd5epy.models.choice.Choice(
+                        action_options = openapi_client.models.choice.Choice(
                             desc = '', 
                             choose = 1.337, 
                             type = '', 
                             from = null, ), 
                         actions = [
-                            dnd5epy.models.monster_multi_attack_action.MonsterMultiAttackAction(
+                            openapi_client.models.monster_multi_attack_action.MonsterMultiAttackAction(
                                 action_name = '', 
                                 count = 1.337, 
                                 type = 'melee', )
                             ], 
-                        options = dnd5epy.models.choice.Choice(
+                        options = openapi_client.models.choice.Choice(
                             desc = '', 
                             choose = 1.337, 
                             type = '', ), 
                         multiattack_type = '', 
                         attack_bonus = 1.337, 
-                        dc = dnd5epy.models.dc.DC(
-                            dc_type = dnd5epy.models.api_reference.APIReference(
+                        dc = openapi_client.models.dc.DC(
+                            dc_type = openapi_client.models.api_reference.APIReference(
                                 index = '', 
                                 name = '', 
                                 url = '', ), 
                             dc_value = 1.337, 
                             success_type = '', ), 
                         attacks = [
-                            dnd5epy.models.monster_attack.MonsterAttack(
+                            openapi_client.models.monster_attack.MonsterAttack(
                                 name = '', 
-                                damage = dnd5epy.models.damage.Damage(
+                                damage = openapi_client.models.damage.Damage(
                                     damage_dice = '', 
-                                    damage_type = dnd5epy.models.api_reference.APIReference(
+                                    damage_type = openapi_client.models.api_reference.APIReference(
                                         index = '', 
                                         name = '', 
                                         url = '', ), ), )
                             ], 
                         damage = [
-                            dnd5epy.models.damage.Damage(
+                            openapi_client.models.damage.Damage(
                                 damage_dice = '', )
                             ], )
                     ], 
                 senses = None, 
                 special_abilities = [
-                    dnd5epy.models.monster_special_ability.MonsterSpecialAbility(
+                    openapi_client.models.monster_special_ability.MonsterSpecialAbility(
                         name = '', 
                         desc = '', 
                         attack_bonus = 1.337, 
-                        damage = dnd5epy.models.damage.Damage(
+                        damage = openapi_client.models.damage.Damage(
                             damage_dice = '', 
-                            damage_type = dnd5epy.models.api_reference.APIReference(
+                            damage_type = openapi_client.models.api_reference.APIReference(
                                 index = '', 
                                 name = '', 
                                 url = '', ), ), 
-                        dc = dnd5epy.models.dc.DC(
-                            dc_type = dnd5epy.models.api_reference.APIReference(
+                        dc = openapi_client.models.dc.DC(
+                            dc_type = openapi_client.models.api_reference.APIReference(
                                 index = '', 
                                 name = '', 
                                 url = '', ), 
                             dc_value = 1.337, 
                             success_type = '', ), 
-                        spellcasting = dnd5epy.models.monster_spellcasting.MonsterSpellcasting(
+                        spellcasting = openapi_client.models.monster_spellcasting.MonsterSpellcasting(
                             ability = , 
                             modifier = 1.337, 
                             components_required = [
@@ -251,22 +251,22 @@ class TestMonster(unittest.TestCase):
                                 'key' : 1.337
                                 }, 
                             spells = [
-                                dnd5epy.models.monster_spell.MonsterSpell(
+                                openapi_client.models.monster_spell.MonsterSpell(
                                     name = '', 
                                     level = 1.337, 
                                     url = '', 
-                                    usage = dnd5epy.models.monster_usage.MonsterUsage(
+                                    usage = openapi_client.models.monster_usage.MonsterUsage(
                                         type = 'at will', 
                                         rest_types = [
                                             ''
                                             ], 
                                         times = 1.337, ), )
                                 ], ), 
-                        usage = dnd5epy.models.monster_usage.MonsterUsage(
+                        usage = openapi_client.models.monster_usage.MonsterUsage(
                             type = 'at will', 
                             times = 1.337, ), )
                     ], 
-                speed = dnd5epy.models.monster_all_of_speed.Monster_allOf_speed(
+                speed = openapi_client.models.monster_all_of_speed.Monster_allOf_speed(
                     walk = '', 
                     burrow = '', 
                     climb = '', 
