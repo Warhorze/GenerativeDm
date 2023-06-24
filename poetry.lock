@@ -60,6 +60,17 @@ jupyter = ["ipython (>=7.8.0)", "tokenize-rt (>=3.2.0)"]
 uvloop = ["uvloop (>=0.15.2)"]
 
 [[package]]
+name = "certifi"
+version = "2023.5.7"
+description = "Python package for providing Mozilla's CA Bundle."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "certifi-2023.5.7-py3-none-any.whl", hash = "sha256:c6c2e98f5c7869efca1f8916fed228dd91539f9f1b444c314c06eef02980c716"},
+    {file = "certifi-2023.5.7.tar.gz", hash = "sha256:0f0d56dc5a6ad56fd4ba36484d6cc34451e1c6548c61daad8c320169f91eddc7"},
+]
+
+[[package]]
 name = "click"
 version = "8.1.3"
 description = "Composable command line interface toolkit"
@@ -154,21 +165,25 @@ files = [
 ]
 
 [[package]]
-name = "dnd5epy"
+name = "dnd5apy"
 version = "1.0.7"
 description = "D&D 5e API"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "dnd5epy-1.0.7-py3-none-any.whl", hash = "sha256:f90f58965f650fc8f654e5aeb6935f69ba3aa14854fc1c60fd4f9bcb2fb6ab11"},
-    {file = "dnd5epy-1.0.7.tar.gz", hash = "sha256:047faa3d2c813da2a3976c4799da3b328ec448037366f0e4871b0865f58bfef8"},
+    {file = "dnd5apy-1.0.7-py3-none-any.whl", hash = "sha256:c11b02b8fba095ae867dcec96a2abb50bab684c93e9a64296f7587fa59624c57"},
 ]
 
 [package.dependencies]
 aenum = ">=3.1.11"
+certifi = ">=2023.5.7,<2024.0.0"
 pydantic = ">=1.10.5,<2.0.0"
 python-dateutil = ">=2.8.2"
 urllib3 = ">=1.25.3"
+
+[package.source]
+type = "file"
+url = "../dndapi/out/python/dist/dnd5apy-1.0.7-py3-none-any.whl"
 
 [[package]]
 name = "fonttools"
@@ -798,4 +813,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "77bfda9f3c3f87641414b0dbe7bd8fe69dc2c51df60a971a420d5bba8e5fd206"
+content-hash = "91da686c816046543fd3318c1d7b677ad789f7cd1d2b387b0b85fc891040e29f"

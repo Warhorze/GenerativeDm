@@ -1,4 +1,4 @@
-from dnd5epy.api.common_api import CommonApi
+from dnd5apy.api.common_api import CommonApi
 import json
 
 def main():
