@@ -21,8 +21,9 @@ class DnDCharacterStats:
         pp.pprint(self.__dict__)
         self.name = ""
         self.describtion = ""
-        self.hitpoints = 
+        self.hitpoints = ''
         #TODO add langchain model to reutnrn name + description
+
 
     @classmethod
     def from_json(cls, json_data):
