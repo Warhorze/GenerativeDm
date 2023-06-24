@@ -154,14 +154,14 @@ files = [
 ]
 
 [[package]]
-name = "dnd5epypypy"
-version = "1.0.3"
+name = "dnd5epy"
+version = "1.0.4"
 description = "D&D 5e API"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "dnd5epypypy-1.0.3-py3-none-any.whl", hash = "sha256:9106fdd030969b671e59d5bc3efb9109d446aa8c12243f7a2427effad06a134d"},
-    {file = "dnd5epypypy-1.0.3.tar.gz", hash = "sha256:b3213570ef06cacf37ef0d42e6bd29f2cb2c7beb1eb87e60cedda6f84fe7843b"},
+    {file = "dnd5epy-1.0.4-py3-none-any.whl", hash = "sha256:5a42fdda84e7117e40f284b7995c0a092a62609bafcbe85ff172a63d2d5aee00"},
+    {file = "dnd5epy-1.0.4.tar.gz", hash = "sha256:c739b0370a7043f20a84b429a6b20ed2508b00bfdc608691f57c64ac7979bc4e"},
 ]
 
 [package.dependencies]
@@ -798,4 +798,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "8f2bf79921618051563acf1389a5f025b32d6ef73ae8eefc4dd686528fc97cec"
+content-hash = "6bce69c02029ed3c9dc3fe693ebbd551189b43a70fa3f8070f06e3eceb148830"

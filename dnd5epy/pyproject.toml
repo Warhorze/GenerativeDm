@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dnd5epy"
-version = "1.0.0"
+version = "1.0.4"
 description = "D&D 5e API"
 authors = ["5eBits <team@openapitools.org>"]
 license = "MIT License"
