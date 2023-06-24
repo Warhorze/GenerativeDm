@@ -20,7 +20,7 @@ import json
 
 from typing import Dict, Optional
 from pydantic import BaseModel, StrictStr
-from openapi_client.models.prerequisite_ability_score import PrerequisiteAbilityScore
+from dnd5epy.models.prerequisite_ability_score import PrerequisiteAbilityScore
 
 class TraitAllOfTraitSpecificOneOfBreathWeaponDamage(BaseModel):
     """

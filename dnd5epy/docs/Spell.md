@@ -28,7 +28,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.spell import Spell
+from dnd5epy.models.spell import Spell
 
 # TODO update the JSON string below
 json = "{}"

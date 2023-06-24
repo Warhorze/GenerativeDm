@@ -20,7 +20,7 @@ import json
 
 from typing import List, Optional, Union
 from pydantic import BaseModel, StrictFloat, StrictInt, conlist
-from openapi_client.models.class_level_class_specific_any_of9_creating_spell_slots_inner import ClassLevelClassSpecificAnyOf9CreatingSpellSlotsInner
+from dnd5epy.models.class_level_class_specific_any_of9_creating_spell_slots_inner import ClassLevelClassSpecificAnyOf9CreatingSpellSlotsInner
 
 class ClassLevelClassSpecificAnyOf9(BaseModel):
     """

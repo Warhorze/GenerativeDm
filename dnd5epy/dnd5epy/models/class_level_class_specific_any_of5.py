@@ -20,7 +20,7 @@ import json
 
 from typing import Optional, Union
 from pydantic import BaseModel, StrictFloat, StrictInt
-from openapi_client.models.class_level_class_specific_any_of5_martial_arts import ClassLevelClassSpecificAnyOf5MartialArts
+from dnd5epy.models.class_level_class_specific_any_of5_martial_arts import ClassLevelClassSpecificAnyOf5MartialArts
 
 class ClassLevelClassSpecificAnyOf5(BaseModel):
     """

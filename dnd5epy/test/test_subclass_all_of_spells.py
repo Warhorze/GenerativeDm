@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.subclass_all_of_spells import SubclassAllOfSpells  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.subclass_all_of_spells import SubclassAllOfSpells  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestSubclassAllOfSpells(unittest.TestCase):
     """SubclassAllOfSpells unit test stubs"""
@@ -35,13 +35,13 @@ class TestSubclassAllOfSpells(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `SubclassAllOfSpells`
         """
-        model = openapi_client.models.subclass_all_of_spells.SubclassAllOfSpells()  # noqa: E501
+        model = dnd5epy.models.subclass_all_of_spells.SubclassAllOfSpells()  # noqa: E501
         if include_optional :
             return SubclassAllOfSpells(
                 prerequisites = [
                     null
                     ], 
-                spell = openapi_client.models.api_reference.APIReference(
+                spell = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', )

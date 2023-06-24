@@ -20,8 +20,8 @@ import json
 
 from typing import List, Optional, Union
 from pydantic import BaseModel, Field, StrictFloat, StrictInt, StrictStr, conlist
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.cost import Cost
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.cost import Cost
 
 class Gear(BaseModel):
     """

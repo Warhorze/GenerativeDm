@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.class_level_class_specific_any_of2 import ClassLevelClassSpecificAnyOf2
+from dnd5epy.models.class_level_class_specific_any_of2 import ClassLevelClassSpecificAnyOf2
 
 # TODO update the JSON string below
 json = "{}"

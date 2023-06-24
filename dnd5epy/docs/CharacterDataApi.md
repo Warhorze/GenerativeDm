@@ -1,4 +1,4 @@
-# openapi_client.CharacterDataApi
+# dnd5epy.CharacterDataApi
 
 All URIs are relative to *https://www.dnd5epypyapi.co*
 
@@ -24,22 +24,22 @@ Get an ability score by index.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.ability_score import AbilityScore
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.ability_score import AbilityScore
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CharacterDataApi(api_client)
+    api_instance = dnd5epy.CharacterDataApi(api_client)
     index = 'cha' # str | The `index` of the ability score to get. 
 
     try:
@@ -90,22 +90,22 @@ Get an alignment by index.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.alignment import Alignment
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.alignment import Alignment
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CharacterDataApi(api_client)
+    api_instance = dnd5epy.CharacterDataApi(api_client)
     index = 'chaotic-neutral' # str | The `index` of the alignment to get. 
 
     try:
@@ -156,22 +156,22 @@ Get a background by index.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.background import Background
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.background import Background
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CharacterDataApi(api_client)
+    api_instance = dnd5epy.CharacterDataApi(api_client)
     index = 'acolyte' # str | The `index` of the background to get. 
 
     try:
@@ -222,22 +222,22 @@ Get a language by index.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.language import Language
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.language import Language
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CharacterDataApi(api_client)
+    api_instance = dnd5epy.CharacterDataApi(api_client)
     index = 'abyssal' # str | The `index` of the language to get. 
 
     try:
@@ -288,22 +288,22 @@ Get a proficiency by index.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.proficiency import Proficiency
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.proficiency import Proficiency
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CharacterDataApi(api_client)
+    api_instance = dnd5epy.CharacterDataApi(api_client)
     index = 'medium-armor' # str | The `index` of the proficiency to get.  Available values can be found in the [`ResourceList`](#get-/api/-endpoint-) for `proficiencies`. 
 
     try:
@@ -354,22 +354,22 @@ Get a skill by index.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.skill import Skill
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.skill import Skill
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CharacterDataApi(api_client)
+    api_instance = dnd5epy.CharacterDataApi(api_client)
     index = 'nature' # str | The `index` of the skill to get. 
 
     try:

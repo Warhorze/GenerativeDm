@@ -21,11 +21,11 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 
-from openapi_client.models.feat import Feat
+from dnd5epy.models.feat import Feat
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.exceptions import (  # noqa: F401
+from dnd5epy.api_client import ApiClient
+from dnd5epy.api_response import ApiResponse
+from dnd5epy.exceptions import (  # noqa: F401
     ApiTypeError,
     ApiValueError
 )

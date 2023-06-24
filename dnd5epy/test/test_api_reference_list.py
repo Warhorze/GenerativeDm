@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.api_reference_list import APIReferenceList  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.api_reference_list import APIReferenceList  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestAPIReferenceList(unittest.TestCase):
     """APIReferenceList unit test stubs"""
@@ -35,12 +35,12 @@ class TestAPIReferenceList(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `APIReferenceList`
         """
-        model = openapi_client.models.api_reference_list.APIReferenceList()  # noqa: E501
+        model = dnd5epy.models.api_reference_list.APIReferenceList()  # noqa: E501
         if include_optional :
             return APIReferenceList(
                 count = 1.337, 
                 results = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )

@@ -20,7 +20,7 @@ import json
 
 from typing import List, Optional, Union
 from pydantic import BaseModel, Field, StrictFloat, StrictInt, conlist
-from openapi_client.models.api_reference import APIReference
+from dnd5epy.models.api_reference import APIReference
 
 class APIReferenceList(BaseModel):
     """

@@ -1,4 +1,4 @@
-# openapi_client.MonstersApi
+# dnd5epy.MonstersApi
 
 All URIs are relative to *https://www.dnd5epypyapi.co*
 
@@ -18,22 +18,22 @@ Get list of monsters with optional filtering
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.api_reference_list import APIReferenceList
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.api_reference_list import APIReferenceList
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.MonstersApi(api_client)
+    api_instance = dnd5epy.MonstersApi(api_client)
     challenge_rating = [[1]] # List[float] | The challenge rating or ratings to filter on. (optional)
 
     try:
@@ -82,22 +82,22 @@ Get monster by index.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.monster import Monster
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.monster import Monster
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.MonstersApi(api_client)
+    api_instance = dnd5epy.MonstersApi(api_client)
     index = 'aboleth' # str | The `index` of the `Monster` to get. 
 
     try:

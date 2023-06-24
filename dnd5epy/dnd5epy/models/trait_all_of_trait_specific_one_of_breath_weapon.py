@@ -20,10 +20,10 @@ import json
 
 from typing import Optional
 from pydantic import BaseModel, StrictStr
-from openapi_client.models.area_of_effect import AreaOfEffect
-from openapi_client.models.dc import DC
-from openapi_client.models.trait_all_of_trait_specific_one_of_breath_weapon_damage import TraitAllOfTraitSpecificOneOfBreathWeaponDamage
-from openapi_client.models.trait_all_of_trait_specific_one_of_breath_weapon_usage import TraitAllOfTraitSpecificOneOfBreathWeaponUsage
+from dnd5epy.models.area_of_effect import AreaOfEffect
+from dnd5epy.models.dc import DC
+from dnd5epy.models.trait_all_of_trait_specific_one_of_breath_weapon_damage import TraitAllOfTraitSpecificOneOfBreathWeaponDamage
+from dnd5epy.models.trait_all_of_trait_specific_one_of_breath_weapon_usage import TraitAllOfTraitSpecificOneOfBreathWeaponUsage
 
 class TraitAllOfTraitSpecificOneOfBreathWeapon(BaseModel):
     """

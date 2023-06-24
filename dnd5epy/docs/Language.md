@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.language import Language
+from dnd5epy.models.language import Language
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.background import Background  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.background import Background  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestBackground(unittest.TestCase):
     """Background unit test stubs"""
@@ -35,51 +35,51 @@ class TestBackground(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Background`
         """
-        model = openapi_client.models.background.Background()  # noqa: E501
+        model = dnd5epy.models.background.Background()  # noqa: E501
         if include_optional :
             return Background(
                 index = '', 
                 name = '', 
                 url = '', 
                 starting_proficiencies = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
                 starting_equipment = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
-                starting_equipment_options = openapi_client.models.choice.Choice(
+                starting_equipment_options = dnd5epy.models.choice.Choice(
                     desc = '', 
                     choose = 1.337, 
                     type = '', 
                     from = null, ), 
-                language_options = openapi_client.models.choice.Choice(
+                language_options = dnd5epy.models.choice.Choice(
                     desc = '', 
                     choose = 1.337, 
                     type = '', 
                     from = null, ), 
-                feature = openapi_client.models.background_all_of_feature.Background_allOf_feature(
+                feature = dnd5epy.models.background_all_of_feature.Background_allOf_feature(
                     name = '', 
                     desc = [
                         ''
                         ], ), 
                 personality_traits = None, 
-                ideals = openapi_client.models.choice.Choice(
+                ideals = dnd5epy.models.choice.Choice(
                     desc = '', 
                     choose = 1.337, 
                     type = '', 
                     from = null, ), 
-                bonds = openapi_client.models.choice.Choice(
+                bonds = dnd5epy.models.choice.Choice(
                     desc = '', 
                     choose = 1.337, 
                     type = '', 
                     from = null, ), 
-                flaws = openapi_client.models.choice.Choice(
+                flaws = dnd5epy.models.choice.Choice(
                     desc = '', 
                     choose = 1.337, 
                     type = '', 

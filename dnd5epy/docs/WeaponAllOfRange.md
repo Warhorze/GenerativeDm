@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.weapon_all_of_range import WeaponAllOfRange
+from dnd5epy.models.weapon_all_of_range import WeaponAllOfRange
 
 # TODO update the JSON string below
 json = "{}"

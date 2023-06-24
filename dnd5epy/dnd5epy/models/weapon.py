@@ -20,10 +20,10 @@ import json
 
 from typing import List, Optional, Union
 from pydantic import BaseModel, Field, StrictFloat, StrictInt, StrictStr, conlist
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.cost import Cost
-from openapi_client.models.damage import Damage
-from openapi_client.models.weapon_all_of_range import WeaponAllOfRange
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.cost import Cost
+from dnd5epy.models.damage import Damage
+from dnd5epy.models.weapon_all_of_range import WeaponAllOfRange
 
 class Weapon(BaseModel):
     """

@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.class_level import ClassLevel  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.class_level import ClassLevel  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestClassLevel(unittest.TestCase):
     """ClassLevel unit test stubs"""
@@ -35,7 +35,7 @@ class TestClassLevel(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `ClassLevel`
         """
-        model = openapi_client.models.class_level.ClassLevel()  # noqa: E501
+        model = dnd5epy.models.class_level.ClassLevel()  # noqa: E501
         if include_optional :
             return ClassLevel(
                 index = '', 
@@ -44,12 +44,12 @@ class TestClassLevel(unittest.TestCase):
                 ability_score_bonuses = 1.337, 
                 prof_bonus = 1.337, 
                 features = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
-                spellcasting = openapi_client.models.subclass_level_spellcasting.SubclassLevel_spellcasting(
+                spellcasting = dnd5epy.models.subclass_level_spellcasting.SubclassLevel_spellcasting(
                     cantrips_known = 1.337, 
                     spells_known = 1.337, 
                     spell_slots_level_1 = 1.337, 

@@ -20,11 +20,11 @@ import re  # noqa: F401
 
 from typing import Any, List, Optional
 from pydantic import BaseModel, Field, StrictStr, ValidationError, validator
-from openapi_client.models.monster_armor_class_one_of import MonsterArmorClassOneOf
-from openapi_client.models.monster_armor_class_one_of1 import MonsterArmorClassOneOf1
-from openapi_client.models.monster_armor_class_one_of2 import MonsterArmorClassOneOf2
-from openapi_client.models.monster_armor_class_one_of3 import MonsterArmorClassOneOf3
-from openapi_client.models.monster_armor_class_one_of4 import MonsterArmorClassOneOf4
+from dnd5epy.models.monster_armor_class_one_of import MonsterArmorClassOneOf
+from dnd5epy.models.monster_armor_class_one_of1 import MonsterArmorClassOneOf1
+from dnd5epy.models.monster_armor_class_one_of2 import MonsterArmorClassOneOf2
+from dnd5epy.models.monster_armor_class_one_of3 import MonsterArmorClassOneOf3
+from dnd5epy.models.monster_armor_class_one_of4 import MonsterArmorClassOneOf4
 from typing import Any, List
 from pydantic import StrictStr, Field
 

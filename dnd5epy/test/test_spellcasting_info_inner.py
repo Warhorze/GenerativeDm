@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.spellcasting_info_inner import SpellcastingInfoInner  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.spellcasting_info_inner import SpellcastingInfoInner  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestSpellcastingInfoInner(unittest.TestCase):
     """SpellcastingInfoInner unit test stubs"""
@@ -35,7 +35,7 @@ class TestSpellcastingInfoInner(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `SpellcastingInfoInner`
         """
-        model = openapi_client.models.spellcasting_info_inner.SpellcastingInfoInner()  # noqa: E501
+        model = dnd5epy.models.spellcasting_info_inner.SpellcastingInfoInner()  # noqa: E501
         if include_optional :
             return SpellcastingInfoInner(
                 name = '', 

@@ -1,4 +1,4 @@
-# openapi_client.SpellsApi
+# dnd5epy.SpellsApi
 
 All URIs are relative to *https://www.dnd5epypyapi.co*
 
@@ -18,22 +18,22 @@ Get list of spells with optional filtering.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.api_reference_list import APIReferenceList
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.api_reference_list import APIReferenceList
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SpellsApi(api_client)
+    api_instance = dnd5epy.SpellsApi(api_client)
     level = [[1]] # List[int] | The level or levels to filter on. (optional)
     school = ['[\"illusion\"]'] # List[str] | The magic school or schools to filter on. (optional)
 
@@ -84,22 +84,22 @@ Get a spell by index.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.spell import Spell
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.spell import Spell
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SpellsApi(api_client)
+    api_instance = dnd5epy.SpellsApi(api_client)
     index = 'sacred-flame' # str | The `index` of the `Spell` to get.  Available values can be found in the [`ResourceList`](#get-/api/-endpoint-) for `spells`. 
 
     try:

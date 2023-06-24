@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.class_level_class_specific_any_of5 import ClassLevelClassSpecificAnyOf5
+from dnd5epy.models.class_level_class_specific_any_of5 import ClassLevelClassSpecificAnyOf5
 
 # TODO update the JSON string below
 json = "{}"

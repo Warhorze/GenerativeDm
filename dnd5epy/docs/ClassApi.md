@@ -1,4 +1,4 @@
-# openapi_client.ClassApi
+# dnd5epy.ClassApi
 
 All URIs are relative to *https://www.dnd5epypyapi.co*
 
@@ -21,22 +21,22 @@ Get a class by index.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.model_class import ModelClass
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.model_class import ModelClass
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ClassApi(api_client)
+    api_instance = dnd5epy.ClassApi(api_client)
     index = 'paladin' # str | The `index` of the class to get. 
 
     try:
@@ -85,22 +85,22 @@ Get multiclassing resource for a class.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.multiclassing import Multiclassing
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.multiclassing import Multiclassing
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ClassApi(api_client)
+    api_instance = dnd5epy.ClassApi(api_client)
     index = 'paladin' # str | The `index` of the class to get. 
 
     try:
@@ -149,22 +149,22 @@ Get spellcasting info for a class.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.spellcasting import Spellcasting
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.spellcasting import Spellcasting
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.ClassApi(api_client)
+    api_instance = dnd5epy.ClassApi(api_client)
     index = 'paladin' # str | The `index` of the class to get. 
 
     try:

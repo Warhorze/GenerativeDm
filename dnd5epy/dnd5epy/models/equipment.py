@@ -20,10 +20,10 @@ import re  # noqa: F401
 
 from typing import Optional
 from pydantic import BaseModel, Field, StrictStr, ValidationError, validator
-from openapi_client.models.armor import Armor
-from openapi_client.models.equipment_pack import EquipmentPack
-from openapi_client.models.gear import Gear
-from openapi_client.models.weapon import Weapon
+from dnd5epy.models.armor import Armor
+from dnd5epy.models.equipment_pack import EquipmentPack
+from dnd5epy.models.gear import Gear
+from dnd5epy.models.weapon import Weapon
 from typing import Any, List
 from pydantic import StrictStr, Field
 

@@ -14,16 +14,16 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.api.equipment_api import EquipmentApi  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.api.equipment_api import EquipmentApi  # noqa: E501
+from dnd5epy.rest import ApiException
 
 
 class TestEquipmentApi(unittest.TestCase):
     """EquipmentApi unit test stubs"""
 
     def setUp(self):
-        self.api = openapi_client.api.equipment_api.EquipmentApi()  # noqa: E501
+        self.api = dnd5epy.api.equipment_api.EquipmentApi()  # noqa: E501
 
     def tearDown(self):
         pass

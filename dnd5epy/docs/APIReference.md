@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.api_reference import APIReference
+from dnd5epy.models.api_reference import APIReference
 
 # TODO update the JSON string below
 json = "{}"

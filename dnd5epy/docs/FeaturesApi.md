@@ -1,4 +1,4 @@
-# openapi_client.FeaturesApi
+# dnd5epy.FeaturesApi
 
 All URIs are relative to *https://www.dnd5epypyapi.co*
 
@@ -19,22 +19,22 @@ Get a feature by index.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.feature import Feature
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.feature import Feature
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.FeaturesApi(api_client)
+    api_instance = dnd5epy.FeaturesApi(api_client)
     index = 'action-surge-1-use' # str | The `index` of the feature to get.  Available values can be found in the [`ResourceList`](#get-/api/-endpoint-) for `features`. 
 
     try:

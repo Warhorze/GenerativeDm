@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.monster_multi_attack_action import MonsterMultiAttackAction
+from dnd5epy.models.monster_multi_attack_action import MonsterMultiAttackAction
 
 # TODO update the JSON string below
 json = "{}"

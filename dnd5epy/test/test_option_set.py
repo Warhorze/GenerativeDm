@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.option_set import OptionSet  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.option_set import OptionSet  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestOptionSet(unittest.TestCase):
     """OptionSet unit test stubs"""
@@ -35,14 +35,14 @@ class TestOptionSet(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `OptionSet`
         """
-        model = openapi_client.models.option_set.OptionSet()  # noqa: E501
+        model = dnd5epy.models.option_set.OptionSet()  # noqa: E501
         if include_optional :
             return OptionSet(
                 option_set_type = '', 
                 options_array = [
                     null
                     ], 
-                equipment_category = openapi_client.models.api_reference.APIReference(
+                equipment_category = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 

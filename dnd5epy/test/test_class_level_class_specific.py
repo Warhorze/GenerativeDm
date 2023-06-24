@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.class_level_class_specific import ClassLevelClassSpecific  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.class_level_class_specific import ClassLevelClassSpecific  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestClassLevelClassSpecific(unittest.TestCase):
     """ClassLevelClassSpecific unit test stubs"""
@@ -35,7 +35,7 @@ class TestClassLevelClassSpecific(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `ClassLevelClassSpecific`
         """
-        model = openapi_client.models.class_level_class_specific.ClassLevelClassSpecific()  # noqa: E501
+        model = dnd5epy.models.class_level_class_specific.ClassLevelClassSpecific()  # noqa: E501
         if include_optional :
             return ClassLevelClassSpecific(
                 rage_count = 1.337, 
@@ -56,19 +56,19 @@ class TestClassLevelClassSpecific(unittest.TestCase):
                 extra_attacks = 1.337, 
                 ki_points = 1.337, 
                 unarmored_movement = 1.337, 
-                martial_arts = openapi_client.models.class_level_class_specific_any_of_5_martial_arts.ClassLevel_class_specific_anyOf_5_martial_arts(
+                martial_arts = dnd5epy.models.class_level_class_specific_any_of_5_martial_arts.ClassLevel_class_specific_anyOf_5_martial_arts(
                     dice_count = 1.337, 
                     dice_value = 1.337, ), 
                 aura_range = 1.337, 
                 favored_enemies = 1.337, 
                 favored_terrain = 1.337, 
-                sneak_attack = openapi_client.models.class_level_class_specific_any_of_5_martial_arts.ClassLevel_class_specific_anyOf_5_martial_arts(
+                sneak_attack = dnd5epy.models.class_level_class_specific_any_of_5_martial_arts.ClassLevel_class_specific_anyOf_5_martial_arts(
                     dice_count = 1.337, 
                     dice_value = 1.337, ), 
                 sorcery_points = 1.337, 
                 metamagic_known = 1.337, 
                 creating_spell_slots = [
-                    openapi_client.models.class_level_class_specific_any_of_9_creating_spell_slots_inner.ClassLevel_class_specific_anyOf_9_creating_spell_slots_inner(
+                    dnd5epy.models.class_level_class_specific_any_of_9_creating_spell_slots_inner.ClassLevel_class_specific_anyOf_9_creating_spell_slots_inner(
                         spell_slot_level = 1.337, 
                         sorcery_point_cost = 1.337, )
                     ], 

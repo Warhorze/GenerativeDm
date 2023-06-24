@@ -20,8 +20,8 @@ import json
 
 from typing import List, Optional
 from pydantic import BaseModel, Field, StrictBool, StrictStr, conlist
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.magic_item_all_of_rarity import MagicItemAllOfRarity
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.magic_item_all_of_rarity import MagicItemAllOfRarity
 
 class MagicItem(BaseModel):
     """

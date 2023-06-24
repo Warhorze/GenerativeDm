@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.background import Background
+from dnd5epy.models.background import Background
 
 # TODO update the JSON string below
 json = "{}"

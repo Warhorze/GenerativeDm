@@ -23,14 +23,14 @@ from pydantic import Field, StrictStr, conint
 
 from typing import List
 
-from openapi_client.models.api_reference_list import APIReferenceList
-from openapi_client.models.subclass import Subclass
-from openapi_client.models.subclass_level import SubclassLevel
-from openapi_client.models.subclass_level_resource import SubclassLevelResource
+from dnd5epy.models.api_reference_list import APIReferenceList
+from dnd5epy.models.subclass import Subclass
+from dnd5epy.models.subclass_level import SubclassLevel
+from dnd5epy.models.subclass_level_resource import SubclassLevelResource
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.exceptions import (  # noqa: F401
+from dnd5epy.api_client import ApiClient
+from dnd5epy.api_response import ApiResponse
+from dnd5epy.exceptions import (  # noqa: F401
     ApiTypeError,
     ApiValueError
 )

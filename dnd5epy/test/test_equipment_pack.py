@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.equipment_pack import EquipmentPack  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.equipment_pack import EquipmentPack  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestEquipmentPack(unittest.TestCase):
     """EquipmentPack unit test stubs"""
@@ -35,7 +35,7 @@ class TestEquipmentPack(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `EquipmentPack`
         """
-        model = openapi_client.models.equipment_pack.EquipmentPack()  # noqa: E501
+        model = dnd5epy.models.equipment_pack.EquipmentPack()  # noqa: E501
         if include_optional :
             return EquipmentPack(
                 index = '', 
@@ -44,19 +44,19 @@ class TestEquipmentPack(unittest.TestCase):
                 desc = [
                     ''
                     ], 
-                equipment_category = openapi_client.models.api_reference.APIReference(
+                equipment_category = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
-                gear_category = openapi_client.models.api_reference.APIReference(
+                gear_category = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
-                cost = openapi_client.models.cost.Cost(
+                cost = dnd5epy.models.cost.Cost(
                     quantity = 1.337, 
                     unit = '', ), 
                 contents = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )

@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.spellcasting import Spellcasting
+from dnd5epy.models.spellcasting import Spellcasting
 
 # TODO update the JSON string below
 json = "{}"

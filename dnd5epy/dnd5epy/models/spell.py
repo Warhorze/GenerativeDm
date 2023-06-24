@@ -20,9 +20,9 @@ import json
 
 from typing import List, Optional, Union
 from pydantic import BaseModel, Field, StrictBool, StrictFloat, StrictInt, StrictStr, conlist, validator
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.area_of_effect import AreaOfEffect
-from openapi_client.models.spell_all_of_damage import SpellAllOfDamage
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.area_of_effect import AreaOfEffect
+from dnd5epy.models.spell_all_of_damage import SpellAllOfDamage
 
 class Spell(BaseModel):
     """

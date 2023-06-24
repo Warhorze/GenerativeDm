@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.subrace_all_of_race import SubraceAllOfRace
+from dnd5epy.models.subrace_all_of_race import SubraceAllOfRace
 
 # TODO update the JSON string below
 json = "{}"

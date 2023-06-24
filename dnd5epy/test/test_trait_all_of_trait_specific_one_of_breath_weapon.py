@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.trait_all_of_trait_specific_one_of_breath_weapon import TraitAllOfTraitSpecificOneOfBreathWeapon  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.trait_all_of_trait_specific_one_of_breath_weapon import TraitAllOfTraitSpecificOneOfBreathWeapon  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestTraitAllOfTraitSpecificOneOfBreathWeapon(unittest.TestCase):
     """TraitAllOfTraitSpecificOneOfBreathWeapon unit test stubs"""
@@ -35,27 +35,27 @@ class TestTraitAllOfTraitSpecificOneOfBreathWeapon(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `TraitAllOfTraitSpecificOneOfBreathWeapon`
         """
-        model = openapi_client.models.trait_all_of_trait_specific_one_of_breath_weapon.TraitAllOfTraitSpecificOneOfBreathWeapon()  # noqa: E501
+        model = dnd5epy.models.trait_all_of_trait_specific_one_of_breath_weapon.TraitAllOfTraitSpecificOneOfBreathWeapon()  # noqa: E501
         if include_optional :
             return TraitAllOfTraitSpecificOneOfBreathWeapon(
                 name = '', 
                 desc = '', 
-                area_of_effect = openapi_client.models.area_of_effect.AreaOfEffect(
+                area_of_effect = dnd5epy.models.area_of_effect.AreaOfEffect(
                     size = 1.337, 
                     type = 'sphere', ), 
-                damage = openapi_client.models.trait_all_of_trait_specific_one_of_breath_weapon_damage.Trait_allOf_trait_specific_oneOf_breath_weapon_damage(
+                damage = dnd5epy.models.trait_all_of_trait_specific_one_of_breath_weapon_damage.Trait_allOf_trait_specific_oneOf_breath_weapon_damage(
                     damage_at_character_level = {
                         'key' : ''
                         }, 
                     damage_type = null, ), 
-                dc = openapi_client.models.dc.DC(
-                    dc_type = openapi_client.models.api_reference.APIReference(
+                dc = dnd5epy.models.dc.DC(
+                    dc_type = dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', ), 
                     dc_value = 1.337, 
                     success_type = '', ), 
-                usage = openapi_client.models.trait_all_of_trait_specific_one_of_breath_weapon_usage.Trait_allOf_trait_specific_oneOf_breath_weapon_usage(
+                usage = dnd5epy.models.trait_all_of_trait_specific_one_of_breath_weapon_usage.Trait_allOf_trait_specific_oneOf_breath_weapon_usage(
                     times = 1.337, 
                     type = '', )
             )

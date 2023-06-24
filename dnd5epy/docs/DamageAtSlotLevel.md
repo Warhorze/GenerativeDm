@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.damage_at_slot_level import DamageAtSlotLevel
+from dnd5epy.models.damage_at_slot_level import DamageAtSlotLevel
 
 # TODO update the JSON string below
 json = "{}"

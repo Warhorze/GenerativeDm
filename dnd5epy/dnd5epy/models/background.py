@@ -20,9 +20,9 @@ import json
 
 from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field, StrictStr, conlist
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.background_all_of_feature import BackgroundAllOfFeature
-from openapi_client.models.choice import Choice
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.background_all_of_feature import BackgroundAllOfFeature
+from dnd5epy.models.choice import Choice
 
 class Background(BaseModel):
     """

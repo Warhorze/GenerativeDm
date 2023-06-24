@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.class_level_class_specific_any_of11 import ClassLevelClassSpecificAnyOf11  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.class_level_class_specific_any_of11 import ClassLevelClassSpecificAnyOf11  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestClassLevelClassSpecificAnyOf11(unittest.TestCase):
     """ClassLevelClassSpecificAnyOf11 unit test stubs"""
@@ -35,7 +35,7 @@ class TestClassLevelClassSpecificAnyOf11(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `ClassLevelClassSpecificAnyOf11`
         """
-        model = openapi_client.models.class_level_class_specific_any_of11.ClassLevelClassSpecificAnyOf11()  # noqa: E501
+        model = dnd5epy.models.class_level_class_specific_any_of11.ClassLevelClassSpecificAnyOf11()  # noqa: E501
         if include_optional :
             return ClassLevelClassSpecificAnyOf11(
                 arcane_recover_levels = 1.337

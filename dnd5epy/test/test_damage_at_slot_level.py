@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.damage_at_slot_level import DamageAtSlotLevel  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.damage_at_slot_level import DamageAtSlotLevel  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestDamageAtSlotLevel(unittest.TestCase):
     """DamageAtSlotLevel unit test stubs"""
@@ -35,11 +35,11 @@ class TestDamageAtSlotLevel(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `DamageAtSlotLevel`
         """
-        model = openapi_client.models.damage_at_slot_level.DamageAtSlotLevel()  # noqa: E501
+        model = dnd5epy.models.damage_at_slot_level.DamageAtSlotLevel()  # noqa: E501
         if include_optional :
             return DamageAtSlotLevel(
                 damage_at_slot_level = { }, 
-                damage_type = openapi_client.models.api_reference.APIReference(
+                damage_type = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', )

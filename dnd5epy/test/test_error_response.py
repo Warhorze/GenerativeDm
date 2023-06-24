@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.error_response import ErrorResponse  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.error_response import ErrorResponse  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestErrorResponse(unittest.TestCase):
     """ErrorResponse unit test stubs"""
@@ -35,7 +35,7 @@ class TestErrorResponse(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `ErrorResponse`
         """
-        model = openapi_client.models.error_response.ErrorResponse()  # noqa: E501
+        model = dnd5epy.models.error_response.ErrorResponse()  # noqa: E501
         if include_optional :
             return ErrorResponse(
                 error = ''

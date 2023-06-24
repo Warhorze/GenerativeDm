@@ -20,8 +20,8 @@ import json
 
 from typing import List, Optional, Union
 from pydantic import BaseModel, Field, StrictFloat, StrictInt, conlist
-from openapi_client.models.spellcasting_info_inner import SpellcastingInfoInner
-from openapi_client.models.spellcasting_spellcasting_ability import SpellcastingSpellcastingAbility
+from dnd5epy.models.spellcasting_info_inner import SpellcastingInfoInner
+from dnd5epy.models.spellcasting_spellcasting_ability import SpellcastingSpellcastingAbility
 
 class Spellcasting(BaseModel):
     """

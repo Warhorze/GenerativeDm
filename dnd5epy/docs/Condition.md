@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.condition import Condition
+from dnd5epy.models.condition import Condition
 
 # TODO update the JSON string below
 json = "{}"

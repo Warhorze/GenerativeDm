@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.feature_all_of_prerequisites_inner_any_of import FeatureAllOfPrerequisitesInnerAnyOf
+from dnd5epy.models.feature_all_of_prerequisites_inner_any_of import FeatureAllOfPrerequisitesInnerAnyOf
 
 # TODO update the JSON string below
 json = "{}"

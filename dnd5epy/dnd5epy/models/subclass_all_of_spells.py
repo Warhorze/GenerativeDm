@@ -20,8 +20,8 @@ import json
 
 from typing import List, Optional
 from pydantic import BaseModel, conlist
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.spell_prerequisite import SpellPrerequisite
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.spell_prerequisite import SpellPrerequisite
 
 class SubclassAllOfSpells(BaseModel):
     """

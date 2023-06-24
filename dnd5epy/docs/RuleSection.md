@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.rule_section import RuleSection
+from dnd5epy.models.rule_section import RuleSection
 
 # TODO update the JSON string below
 json = "{}"

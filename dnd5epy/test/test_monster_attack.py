@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.monster_attack import MonsterAttack  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.monster_attack import MonsterAttack  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestMonsterAttack(unittest.TestCase):
     """MonsterAttack unit test stubs"""
@@ -35,20 +35,20 @@ class TestMonsterAttack(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `MonsterAttack`
         """
-        model = openapi_client.models.monster_attack.MonsterAttack()  # noqa: E501
+        model = dnd5epy.models.monster_attack.MonsterAttack()  # noqa: E501
         if include_optional :
             return MonsterAttack(
                 name = '', 
-                dc = openapi_client.models.dc.DC(
-                    dc_type = openapi_client.models.api_reference.APIReference(
+                dc = dnd5epy.models.dc.DC(
+                    dc_type = dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', ), 
                     dc_value = 1.337, 
                     success_type = '', ), 
-                damage = openapi_client.models.damage.Damage(
+                damage = dnd5epy.models.damage.Damage(
                     damage_dice = '', 
-                    damage_type = openapi_client.models.api_reference.APIReference(
+                    damage_type = dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', ), )

@@ -20,8 +20,8 @@ import json
 
 from typing import List, Optional
 from pydantic import BaseModel, Field, StrictStr, conlist
-from openapi_client.models.damage import Damage
-from openapi_client.models.dc import DC
+from dnd5epy.models.damage import Damage
+from dnd5epy.models.dc import DC
 
 class OptionOneOf9(BaseModel):
     """

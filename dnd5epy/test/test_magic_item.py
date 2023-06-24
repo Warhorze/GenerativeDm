@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.magic_item import MagicItem  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.magic_item import MagicItem  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestMagicItem(unittest.TestCase):
     """MagicItem unit test stubs"""
@@ -35,7 +35,7 @@ class TestMagicItem(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `MagicItem`
         """
-        model = openapi_client.models.magic_item.MagicItem()  # noqa: E501
+        model = dnd5epy.models.magic_item.MagicItem()  # noqa: E501
         if include_optional :
             return MagicItem(
                 index = '', 
@@ -44,14 +44,14 @@ class TestMagicItem(unittest.TestCase):
                 desc = [
                     ''
                     ], 
-                equipment_category = openapi_client.models.api_reference.APIReference(
+                equipment_category = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
-                rarity = openapi_client.models.magic_item_all_of_rarity.MagicItem_allOf_rarity(
+                rarity = dnd5epy.models.magic_item_all_of_rarity.MagicItem_allOf_rarity(
                     name = 'Varies', ), 
                 variants = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )

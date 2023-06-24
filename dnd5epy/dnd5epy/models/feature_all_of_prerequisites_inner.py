@@ -20,9 +20,9 @@ import re  # noqa: F401
 
 from typing import Optional
 from pydantic import BaseModel, Field, StrictStr, ValidationError, validator
-from openapi_client.models.feature_all_of_prerequisites_inner_any_of import FeatureAllOfPrerequisitesInnerAnyOf
-from openapi_client.models.feature_all_of_prerequisites_inner_any_of1 import FeatureAllOfPrerequisitesInnerAnyOf1
-from openapi_client.models.feature_all_of_prerequisites_inner_any_of2 import FeatureAllOfPrerequisitesInnerAnyOf2
+from dnd5epy.models.feature_all_of_prerequisites_inner_any_of import FeatureAllOfPrerequisitesInnerAnyOf
+from dnd5epy.models.feature_all_of_prerequisites_inner_any_of1 import FeatureAllOfPrerequisitesInnerAnyOf1
+from dnd5epy.models.feature_all_of_prerequisites_inner_any_of2 import FeatureAllOfPrerequisitesInnerAnyOf2
 from typing import Any, List
 from pydantic import StrictStr, Field
 

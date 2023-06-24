@@ -20,10 +20,10 @@ import json
 
 from typing import Optional, Union
 from pydantic import BaseModel, StrictFloat, StrictInt, StrictStr
-from openapi_client.models.damage import Damage
-from openapi_client.models.dc import DC
-from openapi_client.models.monster_spellcasting import MonsterSpellcasting
-from openapi_client.models.monster_usage import MonsterUsage
+from dnd5epy.models.damage import Damage
+from dnd5epy.models.dc import DC
+from dnd5epy.models.monster_spellcasting import MonsterSpellcasting
+from dnd5epy.models.monster_usage import MonsterUsage
 
 class MonsterSpecialAbility(BaseModel):
     """

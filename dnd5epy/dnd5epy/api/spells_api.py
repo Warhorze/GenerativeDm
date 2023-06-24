@@ -23,12 +23,12 @@ from pydantic import Field, StrictInt, StrictStr, conlist
 
 from typing import Optional
 
-from openapi_client.models.api_reference_list import APIReferenceList
-from openapi_client.models.spell import Spell
+from dnd5epy.models.api_reference_list import APIReferenceList
+from dnd5epy.models.spell import Spell
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.exceptions import (  # noqa: F401
+from dnd5epy.api_client import ApiClient
+from dnd5epy.api_response import ApiResponse
+from dnd5epy.exceptions import (  # noqa: F401
     ApiTypeError,
     ApiValueError
 )

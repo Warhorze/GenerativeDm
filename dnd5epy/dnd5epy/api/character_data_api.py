@@ -21,16 +21,16 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 
-from openapi_client.models.ability_score import AbilityScore
-from openapi_client.models.alignment import Alignment
-from openapi_client.models.background import Background
-from openapi_client.models.language import Language
-from openapi_client.models.proficiency import Proficiency
-from openapi_client.models.skill import Skill
+from dnd5epy.models.ability_score import AbilityScore
+from dnd5epy.models.alignment import Alignment
+from dnd5epy.models.background import Background
+from dnd5epy.models.language import Language
+from dnd5epy.models.proficiency import Proficiency
+from dnd5epy.models.skill import Skill
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.exceptions import (  # noqa: F401
+from dnd5epy.api_client import ApiClient
+from dnd5epy.api_response import ApiResponse
+from dnd5epy.exceptions import (  # noqa: F401
     ApiTypeError,
     ApiValueError
 )

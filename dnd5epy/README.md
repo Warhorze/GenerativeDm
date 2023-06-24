@@ -227,7 +227,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import openapi_client
+import dnd5epy
 ```
 
 ### Setuptools
@@ -241,7 +241,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import openapi_client
+import dnd5epy
 ```
 
 ### Tests
@@ -255,22 +255,22 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 
 import time
-import openapi_client
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CharacterDataApi(api_client)
+    api_instance = dnd5epy.CharacterDataApi(api_client)
     index = 'cha' # str | The `index` of the ability score to get. 
 
     try:

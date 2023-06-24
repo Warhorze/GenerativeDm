@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.class_level import ClassLevel
+from dnd5epy.models.class_level import ClassLevel
 
 # TODO update the JSON string below
 json = "{}"

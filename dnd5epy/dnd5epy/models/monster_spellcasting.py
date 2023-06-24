@@ -20,8 +20,8 @@ import json
 
 from typing import Dict, List, Optional, Union
 from pydantic import BaseModel, StrictFloat, StrictInt, StrictStr, conlist
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.monster_spell import MonsterSpell
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.monster_spell import MonsterSpell
 
 class MonsterSpellcasting(BaseModel):
     """

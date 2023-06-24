@@ -20,8 +20,8 @@ import json
 
 from typing import Optional
 from pydantic import BaseModel, Field
-from openapi_client.models.trait_all_of_trait_specific_one_of_breath_weapon import TraitAllOfTraitSpecificOneOfBreathWeapon
-from openapi_client.models.trait_all_of_trait_specific_one_of_damage_type import TraitAllOfTraitSpecificOneOfDamageType
+from dnd5epy.models.trait_all_of_trait_specific_one_of_breath_weapon import TraitAllOfTraitSpecificOneOfBreathWeapon
+from dnd5epy.models.trait_all_of_trait_specific_one_of_damage_type import TraitAllOfTraitSpecificOneOfDamageType
 
 class TraitAllOfTraitSpecificOneOf(BaseModel):
     """

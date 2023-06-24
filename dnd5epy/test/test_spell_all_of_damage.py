@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.spell_all_of_damage import SpellAllOfDamage  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.spell_all_of_damage import SpellAllOfDamage  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestSpellAllOfDamage(unittest.TestCase):
     """SpellAllOfDamage unit test stubs"""
@@ -35,11 +35,11 @@ class TestSpellAllOfDamage(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `SpellAllOfDamage`
         """
-        model = openapi_client.models.spell_all_of_damage.SpellAllOfDamage()  # noqa: E501
+        model = dnd5epy.models.spell_all_of_damage.SpellAllOfDamage()  # noqa: E501
         if include_optional :
             return SpellAllOfDamage(
                 damage_at_character_level = { }, 
-                damage_type = openapi_client.models.api_reference.APIReference(
+                damage_type = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 

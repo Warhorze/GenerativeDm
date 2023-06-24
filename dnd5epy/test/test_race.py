@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.race import Race  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.race import Race  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestRace(unittest.TestCase):
     """Race unit test stubs"""
@@ -35,7 +35,7 @@ class TestRace(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Race`
         """
-        model = openapi_client.models.race.Race()  # noqa: E501
+        model = dnd5epy.models.race.Race()  # noqa: E501
         if include_optional :
             return Race(
                 index = '', 
@@ -43,9 +43,9 @@ class TestRace(unittest.TestCase):
                 url = '', 
                 speed = 1.337, 
                 ability_bonuses = [
-                    openapi_client.models.ability_bonus.AbilityBonus(
+                    dnd5epy.models.ability_bonus.AbilityBonus(
                         bonus = 1.337, 
-                        ability_score = openapi_client.models.api_reference.APIReference(
+                        ability_score = dnd5epy.models.api_reference.APIReference(
                             index = '', 
                             name = '', 
                             url = '', ), )
@@ -55,31 +55,31 @@ class TestRace(unittest.TestCase):
                 size = '', 
                 size_description = '', 
                 starting_proficiencies = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
-                starting_proficiency_options = openapi_client.models.choice.Choice(
+                starting_proficiency_options = dnd5epy.models.choice.Choice(
                     desc = '', 
                     choose = 1.337, 
                     type = '', 
                     from = null, ), 
                 languages = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
                 language_desc = '', 
                 traits = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
                 subraces = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )

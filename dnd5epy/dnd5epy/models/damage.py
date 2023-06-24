@@ -20,7 +20,7 @@ import json
 
 from typing import Optional
 from pydantic import BaseModel, StrictStr
-from openapi_client.models.api_reference import APIReference
+from dnd5epy.models.api_reference import APIReference
 
 class Damage(BaseModel):
     """

@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.subclass_level_spellcasting import SubclassLevelSpellcasting
+from dnd5epy.models.subclass_level_spellcasting import SubclassLevelSpellcasting
 
 # TODO update the JSON string below
 json = "{}"

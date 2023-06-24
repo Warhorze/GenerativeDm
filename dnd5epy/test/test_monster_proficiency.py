@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.monster_proficiency import MonsterProficiency  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.monster_proficiency import MonsterProficiency  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestMonsterProficiency(unittest.TestCase):
     """MonsterProficiency unit test stubs"""
@@ -35,11 +35,11 @@ class TestMonsterProficiency(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `MonsterProficiency`
         """
-        model = openapi_client.models.monster_proficiency.MonsterProficiency()  # noqa: E501
+        model = dnd5epy.models.monster_proficiency.MonsterProficiency()  # noqa: E501
         if include_optional :
             return MonsterProficiency(
                 value = 1.337, 
-                proficiency = openapi_client.models.api_reference.APIReference(
+                proficiency = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', )

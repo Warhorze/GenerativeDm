@@ -21,13 +21,13 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 
-from openapi_client.models.model_class import ModelClass
-from openapi_client.models.multiclassing import Multiclassing
-from openapi_client.models.spellcasting import Spellcasting
+from dnd5epy.models.model_class import ModelClass
+from dnd5epy.models.multiclassing import Multiclassing
+from dnd5epy.models.spellcasting import Spellcasting
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.exceptions import (  # noqa: F401
+from dnd5epy.api_client import ApiClient
+from dnd5epy.api_response import ApiResponse
+from dnd5epy.exceptions import (  # noqa: F401
     ApiTypeError,
     ApiValueError
 )

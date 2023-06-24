@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.option import Option  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.option import Option  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestOption(unittest.TestCase):
     """Option unit test stubs"""
@@ -35,11 +35,11 @@ class TestOption(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Option`
         """
-        model = openapi_client.models.option.Option()  # noqa: E501
+        model = dnd5epy.models.option.Option()  # noqa: E501
         if include_optional :
             return Option(
                 option_type = '', 
-                item = openapi_client.models.api_reference.APIReference(
+                item = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
@@ -49,7 +49,7 @@ class TestOption(unittest.TestCase):
                 items = [
                     null
                     ], 
-                choice = openapi_client.models.choice.Choice(
+                choice = dnd5epy.models.choice.Choice(
                     desc = '', 
                     choose = 1.337, 
                     type = '', 
@@ -57,38 +57,38 @@ class TestOption(unittest.TestCase):
                 string = '', 
                 desc = '', 
                 alignments = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
-                of = openapi_client.models.api_reference.APIReference(
+                of = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
-                ability_score = openapi_client.models.api_reference.APIReference(
+                ability_score = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
                 minimum_score = 1.337, 
                 bonus = 1.337, 
                 name = '', 
-                dc = openapi_client.models.dc.DC(
-                    dc_type = openapi_client.models.api_reference.APIReference(
+                dc = dnd5epy.models.dc.DC(
+                    dc_type = dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', ), 
                     dc_value = 1.337, 
                     success_type = '', ), 
                 damage = [
-                    openapi_client.models.damage.Damage(
+                    dnd5epy.models.damage.Damage(
                         damage_dice = '', 
-                        damage_type = openapi_client.models.api_reference.APIReference(
+                        damage_type = dnd5epy.models.api_reference.APIReference(
                             index = '', 
                             name = '', 
                             url = '', ), )
                     ], 
-                damage_type = openapi_client.models.api_reference.APIReference(
+                damage_type = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 

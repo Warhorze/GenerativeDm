@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.feature_all_of_prerequisites_inner_any_of1 import FeatureAllOfPrerequisitesInnerAnyOf1  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.feature_all_of_prerequisites_inner_any_of1 import FeatureAllOfPrerequisitesInnerAnyOf1  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestFeatureAllOfPrerequisitesInnerAnyOf1(unittest.TestCase):
     """FeatureAllOfPrerequisitesInnerAnyOf1 unit test stubs"""
@@ -35,7 +35,7 @@ class TestFeatureAllOfPrerequisitesInnerAnyOf1(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `FeatureAllOfPrerequisitesInnerAnyOf1`
         """
-        model = openapi_client.models.feature_all_of_prerequisites_inner_any_of1.FeatureAllOfPrerequisitesInnerAnyOf1()  # noqa: E501
+        model = dnd5epy.models.feature_all_of_prerequisites_inner_any_of1.FeatureAllOfPrerequisitesInnerAnyOf1()  # noqa: E501
         if include_optional :
             return FeatureAllOfPrerequisitesInnerAnyOf1(
                 type = '', 

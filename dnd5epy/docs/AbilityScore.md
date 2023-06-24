@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.ability_score import AbilityScore
+from dnd5epy.models.ability_score import AbilityScore
 
 # TODO update the JSON string below
 json = "{}"

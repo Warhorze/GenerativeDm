@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.spell import Spell  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.spell import Spell  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestSpell(unittest.TestCase):
     """Spell unit test stubs"""
@@ -35,7 +35,7 @@ class TestSpell(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `Spell`
         """
-        model = openapi_client.models.spell.Spell()  # noqa: E501
+        model = dnd5epy.models.spell.Spell()  # noqa: E501
         if include_optional :
             return Spell(
                 index = '', 
@@ -52,7 +52,7 @@ class TestSpell(unittest.TestCase):
                     'V'
                     ], 
                 material = '', 
-                area_of_effect = openapi_client.models.area_of_effect.AreaOfEffect(
+                area_of_effect = dnd5epy.models.area_of_effect.AreaOfEffect(
                     size = 1.337, 
                     type = 'sphere', ), 
                 ritual = True, 
@@ -62,18 +62,18 @@ class TestSpell(unittest.TestCase):
                 level = 1.337, 
                 attack_type = '', 
                 damage = None, 
-                school = openapi_client.models.api_reference.APIReference(
+                school = dnd5epy.models.api_reference.APIReference(
                     index = '', 
                     name = '', 
                     url = '', ), 
                 classes = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )
                     ], 
                 subclasses = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )

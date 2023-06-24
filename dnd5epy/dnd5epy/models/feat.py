@@ -20,7 +20,7 @@ import json
 
 from typing import List, Optional
 from pydantic import BaseModel, Field, StrictStr, conlist
-from openapi_client.models.prerequisite import Prerequisite
+from dnd5epy.models.prerequisite import Prerequisite
 
 class Feat(BaseModel):
     """

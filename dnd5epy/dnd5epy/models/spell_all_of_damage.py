@@ -20,8 +20,8 @@ import re  # noqa: F401
 
 from typing import Any, List, Optional
 from pydantic import BaseModel, Field, StrictStr, ValidationError, validator
-from openapi_client.models.damage_at_character_level import DamageAtCharacterLevel
-from openapi_client.models.damage_at_slot_level import DamageAtSlotLevel
+from dnd5epy.models.damage_at_character_level import DamageAtCharacterLevel
+from dnd5epy.models.damage_at_slot_level import DamageAtSlotLevel
 from typing import Any, List
 from pydantic import StrictStr, Field
 

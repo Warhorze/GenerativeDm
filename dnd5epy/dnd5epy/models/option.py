@@ -20,15 +20,15 @@ import re  # noqa: F401
 
 from typing import Any, List, Optional
 from pydantic import BaseModel, Field, StrictStr, ValidationError, validator
-from openapi_client.models.option_one_of import OptionOneOf
-from openapi_client.models.option_one_of1 import OptionOneOf1
-from openapi_client.models.option_one_of10 import OptionOneOf10
-from openapi_client.models.option_one_of4 import OptionOneOf4
-from openapi_client.models.option_one_of5 import OptionOneOf5
-from openapi_client.models.option_one_of6 import OptionOneOf6
-from openapi_client.models.option_one_of7 import OptionOneOf7
-from openapi_client.models.option_one_of8 import OptionOneOf8
-from openapi_client.models.option_one_of9 import OptionOneOf9
+from dnd5epy.models.option_one_of import OptionOneOf
+from dnd5epy.models.option_one_of1 import OptionOneOf1
+from dnd5epy.models.option_one_of10 import OptionOneOf10
+from dnd5epy.models.option_one_of4 import OptionOneOf4
+from dnd5epy.models.option_one_of5 import OptionOneOf5
+from dnd5epy.models.option_one_of6 import OptionOneOf6
+from dnd5epy.models.option_one_of7 import OptionOneOf7
+from dnd5epy.models.option_one_of8 import OptionOneOf8
+from dnd5epy.models.option_one_of9 import OptionOneOf9
 from typing import Any, List
 from pydantic import StrictStr, Field
 

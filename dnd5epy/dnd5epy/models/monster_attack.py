@@ -20,8 +20,8 @@ import json
 
 from typing import Optional
 from pydantic import BaseModel, StrictStr
-from openapi_client.models.damage import Damage
-from openapi_client.models.dc import DC
+from dnd5epy.models.damage import Damage
+from dnd5epy.models.dc import DC
 
 class MonsterAttack(BaseModel):
     """

@@ -20,8 +20,8 @@ import json
 
 from typing import Dict, List, Optional, Union
 from pydantic import BaseModel, Field, StrictBool, StrictFloat, StrictInt, StrictStr, conlist
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.cost import Cost
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.cost import Cost
 
 class Armor(BaseModel):
     """

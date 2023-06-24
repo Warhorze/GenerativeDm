@@ -21,14 +21,14 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 
-from openapi_client.models.equipment import Equipment
-from openapi_client.models.equipment_category import EquipmentCategory
-from openapi_client.models.magic_item import MagicItem
-from openapi_client.models.weapon_property import WeaponProperty
+from dnd5epy.models.equipment import Equipment
+from dnd5epy.models.equipment_category import EquipmentCategory
+from dnd5epy.models.magic_item import MagicItem
+from dnd5epy.models.weapon_property import WeaponProperty
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.exceptions import (  # noqa: F401
+from dnd5epy.api_client import ApiClient
+from dnd5epy.api_response import ApiResponse
+from dnd5epy.exceptions import (  # noqa: F401
     ApiTypeError,
     ApiValueError
 )

@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.option_one_of5 import OptionOneOf5  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.option_one_of5 import OptionOneOf5  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestOptionOneOf5(unittest.TestCase):
     """OptionOneOf5 unit test stubs"""
@@ -35,13 +35,13 @@ class TestOptionOneOf5(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `OptionOneOf5`
         """
-        model = openapi_client.models.option_one_of5.OptionOneOf5()  # noqa: E501
+        model = dnd5epy.models.option_one_of5.OptionOneOf5()  # noqa: E501
         if include_optional :
             return OptionOneOf5(
                 option_type = '', 
                 desc = '', 
                 alignments = [
-                    openapi_client.models.api_reference.APIReference(
+                    dnd5epy.models.api_reference.APIReference(
                         index = '', 
                         name = '', 
                         url = '', )

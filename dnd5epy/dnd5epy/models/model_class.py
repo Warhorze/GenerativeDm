@@ -20,11 +20,11 @@ import json
 
 from typing import List, Optional, Union
 from pydantic import BaseModel, Field, StrictFloat, StrictInt, StrictStr, conlist
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.choice import Choice
-from openapi_client.models.class_all_of_starting_equipment import ClassAllOfStartingEquipment
-from openapi_client.models.multiclassing import Multiclassing
-from openapi_client.models.spellcasting import Spellcasting
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.choice import Choice
+from dnd5epy.models.class_all_of_starting_equipment import ClassAllOfStartingEquipment
+from dnd5epy.models.multiclassing import Multiclassing
+from dnd5epy.models.spellcasting import Spellcasting
 
 class ModelClass(BaseModel):
     """

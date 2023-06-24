@@ -20,7 +20,7 @@ import json
 
 from typing import Optional, Union
 from pydantic import BaseModel, Field, StrictFloat, StrictInt
-from openapi_client.models.prerequisite_ability_score import PrerequisiteAbilityScore
+from dnd5epy.models.prerequisite_ability_score import PrerequisiteAbilityScore
 
 class Prerequisite(BaseModel):
     """

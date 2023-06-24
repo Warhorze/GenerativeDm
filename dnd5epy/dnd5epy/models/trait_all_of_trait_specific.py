@@ -20,8 +20,8 @@ import re  # noqa: F401
 
 from typing import Any, List, Optional
 from pydantic import BaseModel, Field, StrictStr, ValidationError, validator
-from openapi_client.models.choice import Choice
-from openapi_client.models.trait_all_of_trait_specific_one_of import TraitAllOfTraitSpecificOneOf
+from dnd5epy.models.choice import Choice
+from dnd5epy.models.trait_all_of_trait_specific_one_of import TraitAllOfTraitSpecificOneOf
 from typing import Any, List
 from pydantic import StrictStr, Field
 

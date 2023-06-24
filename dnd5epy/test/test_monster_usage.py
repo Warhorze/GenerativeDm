@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.monster_usage import MonsterUsage  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.monster_usage import MonsterUsage  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestMonsterUsage(unittest.TestCase):
     """MonsterUsage unit test stubs"""
@@ -35,7 +35,7 @@ class TestMonsterUsage(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `MonsterUsage`
         """
-        model = openapi_client.models.monster_usage.MonsterUsage()  # noqa: E501
+        model = dnd5epy.models.monster_usage.MonsterUsage()  # noqa: E501
         if include_optional :
             return MonsterUsage(
                 type = 'at will', 

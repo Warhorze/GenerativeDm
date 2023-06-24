@@ -20,13 +20,13 @@ import json
 
 from typing import List, Optional, Union
 from pydantic import BaseModel, Field, StrictFloat, StrictInt, StrictStr, confloat, conint, conlist, validator
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.monster_action import MonsterAction
-from openapi_client.models.monster_all_of_senses import MonsterAllOfSenses
-from openapi_client.models.monster_all_of_speed import MonsterAllOfSpeed
-from openapi_client.models.monster_armor_class import MonsterArmorClass
-from openapi_client.models.monster_proficiency import MonsterProficiency
-from openapi_client.models.monster_special_ability import MonsterSpecialAbility
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.monster_action import MonsterAction
+from dnd5epy.models.monster_all_of_senses import MonsterAllOfSenses
+from dnd5epy.models.monster_all_of_speed import MonsterAllOfSpeed
+from dnd5epy.models.monster_armor_class import MonsterArmorClass
+from dnd5epy.models.monster_proficiency import MonsterProficiency
+from dnd5epy.models.monster_special_ability import MonsterSpecialAbility
 
 class Monster(BaseModel):
     """

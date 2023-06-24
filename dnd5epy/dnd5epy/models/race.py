@@ -20,9 +20,9 @@ import json
 
 from typing import List, Optional, Union
 from pydantic import BaseModel, Field, StrictFloat, StrictInt, StrictStr, conlist
-from openapi_client.models.ability_bonus import AbilityBonus
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.choice import Choice
+from dnd5epy.models.ability_bonus import AbilityBonus
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.choice import Choice
 
 class Race(BaseModel):
     """

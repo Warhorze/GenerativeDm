@@ -20,7 +20,7 @@ import json
 
 from typing import Optional, Union
 from pydantic import BaseModel, StrictFloat, StrictInt, StrictStr
-from openapi_client.models.monster_usage import MonsterUsage
+from dnd5epy.models.monster_usage import MonsterUsage
 
 class MonsterSpell(BaseModel):
     """

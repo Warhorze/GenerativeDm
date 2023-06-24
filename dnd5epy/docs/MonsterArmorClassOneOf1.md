@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.monster_armor_class_one_of1 import MonsterArmorClassOneOf1
+from dnd5epy.models.monster_armor_class_one_of1 import MonsterArmorClassOneOf1
 
 # TODO update the JSON string below
 json = "{}"

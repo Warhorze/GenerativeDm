@@ -14,16 +14,16 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.api.class_levels_api import ClassLevelsApi  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.api.class_levels_api import ClassLevelsApi  # noqa: E501
+from dnd5epy.rest import ApiException
 
 
 class TestClassLevelsApi(unittest.TestCase):
     """ClassLevelsApi unit test stubs"""
 
     def setUp(self):
-        self.api = openapi_client.api.class_levels_api.ClassLevelsApi()  # noqa: E501
+        self.api = dnd5epy.api.class_levels_api.ClassLevelsApi()  # noqa: E501
 
     def tearDown(self):
         pass

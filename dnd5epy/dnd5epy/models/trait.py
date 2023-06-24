@@ -20,9 +20,9 @@ import json
 
 from typing import List, Optional
 from pydantic import BaseModel, Field, StrictStr, conlist
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.choice import Choice
-from openapi_client.models.trait_all_of_trait_specific import TraitAllOfTraitSpecific
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.choice import Choice
+from dnd5epy.models.trait_all_of_trait_specific import TraitAllOfTraitSpecific
 
 class Trait(BaseModel):
     """

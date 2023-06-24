@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.spell_prerequisite import SpellPrerequisite  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.spell_prerequisite import SpellPrerequisite  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestSpellPrerequisite(unittest.TestCase):
     """SpellPrerequisite unit test stubs"""
@@ -35,7 +35,7 @@ class TestSpellPrerequisite(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `SpellPrerequisite`
         """
-        model = openapi_client.models.spell_prerequisite.SpellPrerequisite()  # noqa: E501
+        model = dnd5epy.models.spell_prerequisite.SpellPrerequisite()  # noqa: E501
         if include_optional :
             return SpellPrerequisite(
                 index = '', 

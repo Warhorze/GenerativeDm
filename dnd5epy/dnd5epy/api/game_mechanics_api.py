@@ -21,13 +21,13 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 
-from openapi_client.models.condition import Condition
-from openapi_client.models.damage_type import DamageType
-from openapi_client.models.magic_school import MagicSchool
+from dnd5epy.models.condition import Condition
+from dnd5epy.models.damage_type import DamageType
+from dnd5epy.models.magic_school import MagicSchool
 
-from openapi_client.api_client import ApiClient
-from openapi_client.api_response import ApiResponse
-from openapi_client.exceptions import (  # noqa: F401
+from dnd5epy.api_client import ApiClient
+from dnd5epy.api_response import ApiResponse
+from dnd5epy.exceptions import (  # noqa: F401
     ApiTypeError,
     ApiValueError
 )

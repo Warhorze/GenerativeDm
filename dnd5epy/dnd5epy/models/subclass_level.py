@@ -20,8 +20,8 @@ import json
 
 from typing import Any, Dict, List, Optional, Union
 from pydantic import BaseModel, Field, StrictFloat, StrictInt, StrictStr, conlist
-from openapi_client.models.api_reference import APIReference
-from openapi_client.models.subclass_level_spellcasting import SubclassLevelSpellcasting
+from dnd5epy.models.api_reference import APIReference
+from dnd5epy.models.subclass_level_spellcasting import SubclassLevelSpellcasting
 
 class SubclassLevel(BaseModel):
     """

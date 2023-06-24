@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.cost import Cost
+from dnd5epy.models.cost import Cost
 
 # TODO update the JSON string below
 json = "{}"

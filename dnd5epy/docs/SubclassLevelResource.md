@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.subclass_level_resource import SubclassLevelResource
+from dnd5epy.models.subclass_level_resource import SubclassLevelResource
 
 # TODO update the JSON string below
 json = "{}"

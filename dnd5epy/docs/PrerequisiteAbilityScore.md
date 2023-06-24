@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.prerequisite_ability_score import PrerequisiteAbilityScore
+from dnd5epy.models.prerequisite_ability_score import PrerequisiteAbilityScore
 
 # TODO update the JSON string below
 json = "{}"

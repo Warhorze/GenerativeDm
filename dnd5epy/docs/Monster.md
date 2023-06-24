@@ -43,7 +43,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.monster import Monster
+from dnd5epy.models.monster import Monster
 
 # TODO update the JSON string below
 json = "{}"

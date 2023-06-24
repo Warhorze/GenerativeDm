@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.subrace_all_of_race import SubraceAllOfRace  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.subrace_all_of_race import SubraceAllOfRace  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestSubraceAllOfRace(unittest.TestCase):
     """SubraceAllOfRace unit test stubs"""
@@ -35,7 +35,7 @@ class TestSubraceAllOfRace(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `SubraceAllOfRace`
         """
-        model = openapi_client.models.subrace_all_of_race.SubraceAllOfRace()  # noqa: E501
+        model = dnd5epy.models.subrace_all_of_race.SubraceAllOfRace()  # noqa: E501
         if include_optional :
             return SubraceAllOfRace(
                 index = '', 

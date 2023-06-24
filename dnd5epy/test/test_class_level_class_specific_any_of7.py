@@ -15,9 +15,9 @@
 import unittest
 import datetime
 
-import openapi_client
-from openapi_client.models.class_level_class_specific_any_of7 import ClassLevelClassSpecificAnyOf7  # noqa: E501
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.class_level_class_specific_any_of7 import ClassLevelClassSpecificAnyOf7  # noqa: E501
+from dnd5epy.rest import ApiException
 
 class TestClassLevelClassSpecificAnyOf7(unittest.TestCase):
     """ClassLevelClassSpecificAnyOf7 unit test stubs"""
@@ -35,7 +35,7 @@ class TestClassLevelClassSpecificAnyOf7(unittest.TestCase):
             optional params are included """
         # uncomment below to create an instance of `ClassLevelClassSpecificAnyOf7`
         """
-        model = openapi_client.models.class_level_class_specific_any_of7.ClassLevelClassSpecificAnyOf7()  # noqa: E501
+        model = dnd5epy.models.class_level_class_specific_any_of7.ClassLevelClassSpecificAnyOf7()  # noqa: E501
         if include_optional :
             return ClassLevelClassSpecificAnyOf7(
                 favored_enemies = 1.337, 

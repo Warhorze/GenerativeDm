@@ -1,4 +1,4 @@
-# openapi_client.SubracesApi
+# dnd5epy.SubracesApi
 
 All URIs are relative to *https://www.dnd5epypyapi.co*
 
@@ -21,22 +21,22 @@ Subraces reflect the different varieties of a certain parent race.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.subrace import Subrace
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.subrace import Subrace
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SubracesApi(api_client)
+    api_instance = dnd5epy.SubracesApi(api_client)
     index = 'hill-dwarf' # str | The `index` of the subrace to get. 
 
     try:
@@ -85,22 +85,22 @@ Get proficiences available for a subrace.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.api_reference_list import APIReferenceList
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.api_reference_list import APIReferenceList
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SubracesApi(api_client)
+    api_instance = dnd5epy.SubracesApi(api_client)
     index = 'hill-dwarf' # str | The `index` of the subrace to get. 
 
     try:
@@ -149,22 +149,22 @@ Get traits available for a subrace.
 ```python
 import time
 import os
-import openapi_client
-from openapi_client.models.api_reference_list import APIReferenceList
-from openapi_client.rest import ApiException
+import dnd5epy
+from dnd5epy.models.api_reference_list import APIReferenceList
+from dnd5epy.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://www.dnd5epypyapi.co
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = dnd5epy.Configuration(
     host = "https://www.dnd5epypyapi.co"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with dnd5epy.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SubracesApi(api_client)
+    api_instance = dnd5epy.SubracesApi(api_client)
     index = 'hill-dwarf' # str | The `index` of the subrace to get. 
 
     try:

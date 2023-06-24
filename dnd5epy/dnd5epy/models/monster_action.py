@@ -20,11 +20,11 @@ import json
 
 from typing import List, Optional, Union
 from pydantic import BaseModel, StrictFloat, StrictInt, StrictStr, conlist
-from openapi_client.models.choice import Choice
-from openapi_client.models.damage import Damage
-from openapi_client.models.dc import DC
-from openapi_client.models.monster_attack import MonsterAttack
-from openapi_client.models.monster_multi_attack_action import MonsterMultiAttackAction
+from dnd5epy.models.choice import Choice
+from dnd5epy.models.damage import Damage
+from dnd5epy.models.dc import DC
+from dnd5epy.models.monster_attack import MonsterAttack
+from dnd5epy.models.monster_multi_attack_action import MonsterMultiAttackAction
 
 class MonsterAction(BaseModel):
     """

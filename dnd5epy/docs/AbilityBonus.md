@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.ability_bonus import AbilityBonus
+from dnd5epy.models.ability_bonus import AbilityBonus
 
 # TODO update the JSON string below
 json = "{}"
