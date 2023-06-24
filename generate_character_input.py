@@ -1,4 +1,4 @@
-from dnd5epypypy.api.common_api import CommonApi
+from dnd5epy.api.common_api import CommonApi
 import json
 
 def main():
@@ -18,4 +18,4 @@ def main():
         json.dump(output, file, indent=4)
 
 if __name__ == "__main__":
-    main()
+    main()  
