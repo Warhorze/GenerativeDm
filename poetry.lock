@@ -2,14 +2,14 @@
 
 [[package]]
 name = "aenum"
-version = "3.1.12"
+version = "3.1.14"
 description = "Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants"
 optional = false
 python-versions = "*"
 files = [
-    {file = "aenum-3.1.12-py2-none-any.whl", hash = "sha256:8d79c9e3ec997220e355b96b322e672fb56a53e61744138ed838407e3a07b610"},
-    {file = "aenum-3.1.12-py3-none-any.whl", hash = "sha256:2d544ef7323c088d68abf9a84b9f3f6db0d516fec685e15678b5f84fdb7b8ba0"},
-    {file = "aenum-3.1.12.tar.gz", hash = "sha256:3e531c91860a81f885f7e6e97d219ae9772cb899580084788935dad7d9742ef0"},
+    {file = "aenum-3.1.14-py2-none-any.whl", hash = "sha256:93ba417f1c461d2aab6d107204110381d1b3e53561193ae53df3a17701821777"},
+    {file = "aenum-3.1.14-py3-none-any.whl", hash = "sha256:1d60e15f2e2d4ba66371c19c691edb085ecf82027e773309a9c4291b5cbccc17"},
+    {file = "aenum-3.1.14.tar.gz", hash = "sha256:7c4b04b5c9621533d6311e6ca23ea2ee213c7a992ed0be79a2b944cdaf2a45ec"},
 ]
 
 [[package]]
@@ -154,14 +154,14 @@ files = [
 ]
 
 [[package]]
-name = "dnd5epy"
-version = "1.0.1"
+name = "dnd5epypypy"
+version = "1.0.3"
 description = "D&D 5e API"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "dnd5epy-1.0.1-py3-none-any.whl", hash = "sha256:6116800e9869af2f8a1d7d2cd85c6c76d07e8375e2773faaf81fd1ddce86ec5e"},
-    {file = "dnd5epy-1.0.1.tar.gz", hash = "sha256:34bd16934bf09c4414327148f04585893a4cb9dd42a912c7d94bbe8bafddc589"},
+    {file = "dnd5epypypy-1.0.3-py3-none-any.whl", hash = "sha256:9106fdd030969b671e59d5bc3efb9109d446aa8c12243f7a2427effad06a134d"},
+    {file = "dnd5epypypy-1.0.3.tar.gz", hash = "sha256:b3213570ef06cacf37ef0d42e6bd29f2cb2c7beb1eb87e60cedda6f84fe7843b"},
 ]
 
 [package.dependencies]
@@ -603,13 +603,13 @@ tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "pa
 
 [[package]]
 name = "platformdirs"
-version = "3.7.0"
+version = "3.8.0"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "platformdirs-3.7.0-py3-none-any.whl", hash = "sha256:cfd065ba43133ff103ab3bd10aecb095c2a0035fcd1f07217c9376900d94ba07"},
-    {file = "platformdirs-3.7.0.tar.gz", hash = "sha256:87fbf6473e87c078d536980ba970a472422e94f17b752cfad17024c18876d481"},
+    {file = "platformdirs-3.8.0-py3-none-any.whl", hash = "sha256:ca9ed98ce73076ba72e092b23d3c93ea6c4e186b3f1c3dad6edd98ff6ffcca2e"},
+    {file = "platformdirs-3.8.0.tar.gz", hash = "sha256:b0cabcb11063d21a0b261d557acb0a9d2126350e63b70cdf7db6347baea456dc"},
 ]
 
 [package.extras]
