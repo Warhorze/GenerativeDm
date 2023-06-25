@@ -7,11 +7,12 @@ class DnDCharacterStats:
     name :str
     describtion : str
     level : int
+    char_class: str
     hitpoints : int
+    hit_die : int 
     ability_scores: dict
     alignment: str
     background: str
-    char_class: str
     languages: list
     proficiencies: list
     race: str
@@ -75,13 +76,3 @@ json_data_dict['ability_scores'] = json_data_dict.pop('abilityScores')
 
 character = DnDCharacterStats.from_json(json_data_dict)
 
-# Accessing the character's attributes
-#print(character.ability_scores)
-#print(character.alignment)
-#print(character.background)
-#print(character.char_class)
-#print(character.languages)
-#print(character.proficiencies)
-
-#print(character.race)
-#print(character.skills)

@@ -1,0 +1,26 @@
+{
+    "task": "Act as a DnD 5th edition character builder based on the inital input {character} provided by the story",
+    "character": {  "name": "",
+                    "class": "",
+                    "description": ""
+                },
+    "proficiency_choices": [
+    
+    ],
+    "starting_equipment_choices": [
+        
+    ],
+    "taskRules": [
+        "no multiclassing"
+    ],
+    "game_settings": {
+    "detail": "" ,
+    "vulgar": false,
+    "cussing": false,
+    "HumorLevel" : 100, 
+    "uniquenessLevel": 5,
+    "difficulty" : "beginner",
+    "playstyle" : "story focussed",
+    "output": "json formatted, starting with "
+    }
+}

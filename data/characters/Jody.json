@@ -1,0 +1,74 @@
+{
+    "hit_die": 8.0,
+    "proficiency_skills": {
+        "proficiencies": [
+            "light-armor",
+            "simple-weapons",
+            "longswords",
+            "rapiers",
+            "shortswords",
+            "hand-crossbows",
+            "thieves-tools",
+            "saving-throw-dex",
+            "saving-throw-int"
+        ]
+    },
+    "proficiency_choices": [
+        {
+            "type": "proficiencies",
+            "description": "Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth",
+            "quantity": 4.0,
+            "options": [
+                "skill-acrobatics",
+                "skill-athletics",
+                "skill-deception",
+                "skill-insight",
+                "skill-intimidation",
+                "skill-investigation",
+                "skill-perception",
+                "skill-performance",
+                "skill-persuasion",
+                "skill-sleight-of-hand",
+                "skill-stealth"
+            ]
+        }
+    ],
+    "starting_equipment_choices": [
+        {
+            "type": "equipment",
+            "description": "(a) a rapier or (b) a shortsword",
+            "quantity": 1.0,
+            "options": [
+                "rapier",
+                "shortsword"
+            ]
+        },
+        {
+            "type": "equipment",
+            "description": "(a) a shortbow and quiver of 20 arrows or (b) a shortsword",
+            "quantity": 1.0,
+            "options": [
+                "shortbow",
+                "arrow",
+                "shortsword"
+            ]
+        },
+        {
+            "type": "equipment",
+            "description": "(a) a burglar\u2019s pack, (b) a dungeoneer\u2019s pack, or (c) an explorer\u2019s pack",
+            "quantity": 1.0,
+            "options": [
+                "burglars-pack",
+                "dungeoneers-pack",
+                "explorers-pack"
+            ]
+        }
+    ],
+    "starter_items": {
+        "starting_equipment": [
+            "leather-armor",
+            "dagger",
+            "thieves-tools"
+        ]
+    }
+}
