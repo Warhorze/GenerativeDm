@@ -37,10 +37,12 @@ character = CharacterBuilder(
     starting_equipment_choices=character_data['starting_equipment_choices'],
     game_settings=character_prompt.game_settings
 )
+print(char['description'])
+print(30 * '-')
+print(character_data['proficiency_choices'][0]['description'])
+print(30 * '-')
+print(character_data['starting_equipment_choices'][0]['description'])
 
 
+#Dolly-v2, 8b seems to work pretty well and fit into local memory.. which is essential during development.
 
-
-response = llm.predict(str(character))
-
-pp.pprint(response)
