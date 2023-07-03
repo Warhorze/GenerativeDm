@@ -1,5 +1,5 @@
 {
-    "task": "Act as a DnD 5th edition character builder based on the inital input {character} provided by the story",
+    "task": "Act as a DnD 5e character builder based on the inital input {character} provided by the story",
     "character": {  "name": "",
                     "class": "",
                     "description": ""
